@@ -339,7 +339,7 @@ set inventory:gridheight 7
 # Enable the Tarkov-style search mechanic (default: 0 / off)
 # When enabled, items in stashes, trunks, gloveboxes, drops, dumpsters,
 # containers, and police evidence must be searched before they are visible
-set inventory:searchable 0
+setr inventory:searchable 0
 ```
 
 ## Searchable Inventories
