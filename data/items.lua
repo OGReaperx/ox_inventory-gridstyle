@@ -2236,6 +2236,9 @@ return {
         weight = 15000,
         stack = false,
         close = true,
+        width = 3,
+        height = 2,
+        rarity = 'uncommon',
         description = "A workbench to craft items.",
         client = {
             image = "item_bench.png",
@@ -2247,6 +2250,9 @@ return {
         weight = 5000,
         stack = false,
         close = true,
+        width = 2,
+        height = 2,
+        rarity = 'common',
         description = "A net used for catching fish!",
         client = {
             image = "fishingnet.png",
@@ -2258,1020 +2264,778 @@ return {
         weight = 3000,
         stack = true,
         close = true,
+        width = 1,
+        height = 1,
+        rarity = 'uncommon',
         description = "Emerald",
         client = {
             image = "emerald.png",
         },
-        name = "emerald",
-        type = "item",
-        image = "emerald.png",
-        unique = false,
-        useable = true,
-        shouldClose = true,
-        combinable = nil,
     },
     ["chestkey"] = {
         label = "Key",
         weight = 1000,
         stack = true,
         close = true,
+        width = 1,
+        height = 1,
+        rarity = 'uncommon',
         description = "A gold key.",
         client = {
             image = "chestkey.png",
         },
-        name = "chestkey",
-        type = "item",
-        image = "chestkey.png",
-        unique = false,
-        useable = true,
-        shouldClose = true,
-        combinable = nil,
     },
     ["rainbowtrout"] = {
         label = "Rainbowtrout",
         weight = 1000,
         stack = true,
         close = true,
+        width = 2,
+        height = 1,
+        rarity = 'common',
         description = "Description for rainbowtrout",
         client = {
             image = "rainbowtrout.png",
         },
-        name = "rainbowtrout",
-        type = "item",
-        image = "rainbowtrout.png",
-        unique = false,
-        useable = true,
-        shouldClose = true,
-        combinable = nil,
     },
     ["stripedbass"] = {
         label = "Stripedbass",
         weight = 1000,
         stack = true,
         close = true,
+        width = 2,
+        height = 1,
+        rarity = 'common',
         description = "Description for stripedbass",
         client = {
             image = "stripedbass.png",
         },
-        name = "stripedbass",
-        type = "item",
-        image = "stripedbass.png",
-        unique = false,
-        useable = true,
-        shouldClose = true,
-        combinable = nil,
     },
     ["catfish"] = {
         label = "Catfish",
         weight = 1000,
         stack = true,
         close = true,
+        width = 2,
+        height = 1,
+        rarity = 'common',
         description = "Description for catfish",
         client = {
             image = "catfish.png",
         },
-        name = "catfish",
-        type = "item",
-        image = "catfish.png",
-        unique = false,
-        useable = true,
-        shouldClose = true,
-        combinable = nil,
     },
     ["swordfish"] = {
         label = "Swordfish",
         weight = 1000,
         stack = true,
         close = true,
+        width = 2,
+        height = 1,
+        rarity = 'common',
         description = "Description for swordfish",
         client = {
             image = "swordfish.png",
         },
-        name = "swordfish",
-        type = "item",
-        image = "swordfish.png",
-        unique = false,
-        useable = true,
-        shouldClose = true,
-        combinable = nil,
     },
     ["cookedfish"] = {
         label = "Cookedfish",
         weight = 1000,
         stack = true,
         close = true,
+        width = 2,
+        height = 1,
+        rarity = 'common',
         description = "Description for cookedfish",
         client = {
             image = "cookedfish.png",
         },
-        name = "cookedfish",
-        type = "item",
-        image = "cookedfish.png",
-        unique = false,
-        useable = true,
-        shouldClose = true,
-        combinable = nil,
     },
     ["fishingrod3"] = {
         label = "Fishingrod3",
         weight = 1000,
         stack = false,
         close = true,
+        width = 1,
+        height = 3,
+        rarity = 'common',
         description = "Description for fishingrod3",
         client = {
             image = "fishingrod3.png",
         },
-        name = "fishingrod3",
-        type = "item",
-        image = "fishingrod3.png",
-        unique = false,
-        useable = true,
-        shouldClose = true,
-        combinable = nil,
     },
     ["fish"] = {
         label = "Fish",
         weight = 1000,
         stack = true,
         close = true,
+        width = 2,
+        height = 1,
+        rarity = 'common',
         description = "Description for fish",
         client = {
             image = "fish.png",
         },
-        name = "fish",
-        type = "item",
-        image = "fish.png",
-        unique = false,
-        useable = true,
-        shouldClose = true,
-        combinable = nil,
     },
     ["treasuremap"] = {
         label = "Treasuremap",
         weight = 1000,
         stack = true,
         close = true,
+        width = 1,
+        height = 1,
+        rarity = 'common',
         description = "Description for treasuremap",
         client = {
             image = "treasuremap.png",
         },
-        name = "treasuremap",
-        type = "item",
-        image = "treasuremap.png",
-        unique = false,
-        useable = true,
-        shouldClose = true,
-        combinable = nil,
     },
     ["ruby"] = {
         label = "Ruby",
         weight = 1000,
         stack = true,
         close = true,
+        width = 1,
+        height = 1,
+        rarity = 'uncommon',
         description = "Description for ruby",
         client = {
             image = "ruby.png",
         },
-        name = "ruby",
-        type = "item",
-        image = "ruby.png",
-        unique = false,
-        useable = true,
-        shouldClose = true,
-        combinable = nil,
     },
     ["fishingbait"] = {
         label = "Fishingbait",
         weight = 1000,
         stack = true,
         close = true,
+        width = 1,
+        height = 1,
+        rarity = 'common',
         description = "Description for fishingbait",
         client = {
             image = "fishingbait.png",
         },
-        name = "fishingbait",
-        type = "item",
-        image = "fishingbait.png",
-        unique = false,
-        useable = true,
-        shouldClose = true,
-        combinable = nil,
     },
     ["treasurechest"] = {
         label = "Treasurechest",
         weight = 1000,
         stack = true,
         close = true,
+        width = 3,
+        height = 2,
+        rarity = 'uncommon',
         description = "Description for treasurechest",
         client = {
             image = "treasurechest.png",
         },
-        name = "treasurechest",
-        type = "item",
-        image = "treasurechest.png",
-        unique = false,
-        useable = true,
-        shouldClose = true,
-        combinable = nil,
     },
     ["attachment_bench"] = {
         label = "Attachment bench",
         weight = 1000,
         stack = false,
         close = true,
+        width = 3,
+        height = 2,
+        rarity = 'uncommon',
         description = "Description for attachment_bench",
         client = {
             image = "attachment_bench.png",
         },
-        name = "attachment_bench",
-        type = "item",
-        image = "attachment_bench.png",
-        unique = false,
-        useable = true,
-        shouldClose = true,
-        combinable = nil,
     },
     ["fishinglure"] = {
         label = "Fishinglure",
         weight = 1000,
         stack = false,
         close = true,
+        width = 1,
+        height = 1,
+        rarity = 'common',
         description = "Description for fishinglure",
         client = {
             image = "fishinglure.png",
         },
-        name = "fishinglure",
-        type = "item",
-        image = "fishinglure.png",
-        unique = false,
-        useable = true,
-        shouldClose = true,
-        combinable = nil,
     },
     ["perfectlycookedfish"] = {
         label = "Perfectlycookedfish",
         weight = 1000,
         stack = true,
         close = true,
+        width = 2,
+        height = 1,
+        rarity = 'common',
         description = "Description for perfectlycookedfish",
         client = {
             image = "perfectlycookedfish.png",
         },
-        name = "perfectlycookedfish",
-        type = "item",
-        image = "perfectlycookedfish.png",
-        unique = false,
-        useable = true,
-        shouldClose = true,
-        combinable = nil,
     },
     ["salmon"] = {
         label = "Salmon",
         weight = 1000,
         stack = true,
         close = true,
+        width = 2,
+        height = 1,
+        rarity = 'common',
         description = "Description for salmon",
         client = {
             image = "salmon.png",
         },
-        name = "salmon",
-        type = "item",
-        image = "salmon.png",
-        unique = false,
-        useable = true,
-        shouldClose = true,
-        combinable = nil,
     },
     ["tunafish"] = {
         label = "Tunafish",
         weight = 1000,
         stack = true,
         close = true,
+        width = 2,
+        height = 1,
+        rarity = 'common',
         description = "Description for tunafish",
         client = {
             image = "tunafish.png",
         },
-        name = "tunafish",
-        type = "item",
-        image = "tunafish.png",
-        unique = false,
-        useable = true,
-        shouldClose = true,
-        combinable = nil,
     },
     ["tigershark"] = {
         label = "Tigershark",
         weight = 1000,
         stack = true,
         close = true,
+        width = 3,
+        height = 2,
+        rarity = 'common',
         description = "Description for tigershark",
         client = {
             image = "tigershark.png",
         },
-        name = "tigershark",
-        type = "item",
-        image = "tigershark.png",
-        unique = false,
-        useable = true,
-        shouldClose = true,
-        combinable = nil,
     },
     ["fishinglure2"] = {
         label = "Fishinglure2",
         weight = 1000,
         stack = false,
         close = true,
+        width = 1,
+        height = 1,
+        rarity = 'common',
         description = "Description for fishinglure2",
         client = {
             image = "fishinglure2.png",
         },
-        name = "fishinglure2",
-        type = "item",
-        image = "fishinglure2.png",
-        unique = false,
-        useable = true,
-        shouldClose = true,
-        combinable = nil,
     },
     ["codfish"] = {
         label = "Codfish",
         weight = 1000,
         stack = true,
         close = true,
+        width = 2,
+        height = 1,
+        rarity = 'common',
         description = "Description for codfish",
         client = {
             image = "codfish.png",
         },
-        name = "codfish",
-        type = "item",
-        image = "codfish.png",
-        unique = false,
-        useable = true,
-        shouldClose = true,
-        combinable = nil,
     },
     ["eelfish"] = {
         label = "Eelfish",
         weight = 1000,
         stack = true,
         close = true,
+        width = 2,
+        height = 1,
+        rarity = 'common',
         description = "Description for eelfish",
         client = {
             image = "eelfish.png",
         },
-        name = "eelfish",
-        type = "item",
-        image = "eelfish.png",
-        unique = false,
-        useable = true,
-        shouldClose = true,
-        combinable = nil,
     },
     ["skillreel"] = {
         label = "Skillreel",
         weight = 1000,
         stack = false,
         close = true,
+        width = 1,
+        height = 1,
+        rarity = 'common',
         description = "Description for skillreel",
         client = {
             image = "skillreel.png",
         },
-        name = "skillreel",
-        type = "item",
-        image = "skillreel.png",
-        unique = false,
-        useable = true,
-        shouldClose = true,
-        combinable = nil,
     },
     ["fishingfireplace"] = {
         label = "Fishingfireplace",
         weight = 1000,
         stack = false,
         close = true,
+        width = 2,
+        height = 2,
+        rarity = 'uncommon',
         description = "Description for fishingfireplace",
         client = {
             image = "fishingfireplace.png",
         },
-        name = "fishingfireplace",
-        type = "item",
-        image = "fishingfireplace.png",
-        unique = false,
-        useable = true,
-        shouldClose = true,
-        combinable = nil,
     },
     ["diamond"] = {
         label = "Diamond",
         weight = 1000,
         stack = true,
         close = true,
+        width = 1,
+        height = 1,
+        rarity = 'uncommon',
         description = "Description for diamond",
         client = {
             image = "diamond.png",
         },
-        name = "diamond",
-        type = "item",
-        image = "diamond.png",
-        unique = false,
-        useable = true,
-        shouldClose = true,
-        combinable = nil,
     },
     ["yellowdiamond"] = {
         label = "Yellowdiamond",
         weight = 1000,
         stack = true,
         close = true,
+        width = 1,
+        height = 1,
+        rarity = 'uncommon',
         description = "Description for yellowdiamond",
         client = {
             image = "yellowdiamond.png",
         },
-        name = "yellowdiamond",
-        type = "item",
-        image = "yellowdiamond.png",
-        unique = false,
-        useable = true,
-        shouldClose = true,
-        combinable = nil,
     },
     ["fishingshovel"] = {
         label = "Fishingshovel",
         weight = 1000,
         stack = true,
         close = true,
+        width = 1,
+        height = 3,
+        rarity = 'common',
         description = "Description for fishingshovel",
         client = {
             image = "fishingshovel.png",
         },
-        name = "fishingshovel",
-        type = "item",
-        image = "fishingshovel.png",
-        unique = false,
-        useable = true,
-        shouldClose = true,
-        combinable = nil,
     },
     ["proreel"] = {
         label = "Proreel",
         weight = 1000,
         stack = false,
         close = true,
+        width = 1,
+        height = 1,
+        rarity = 'common',
         description = "Description for proreel",
         client = {
             image = "proreel.png",
         },
-        name = "proreel",
-        type = "item",
-        image = "proreel.png",
-        unique = false,
-        useable = true,
-        shouldClose = true,
-        combinable = nil,
     },
     ["goldfish"] = {
         label = "Goldfish",
         weight = 1000,
         stack = true,
         close = true,
+        width = 2,
+        height = 1,
+        rarity = 'common',
         description = "Description for goldfish",
         client = {
             image = "goldfish.png",
         },
-        name = "goldfish",
-        type = "item",
-        image = "goldfish.png",
-        unique = false,
-        useable = true,
-        shouldClose = true,
-        combinable = nil,
     },
     ["redfish"] = {
         label = "Redfish",
         weight = 1000,
         stack = true,
         close = true,
+        width = 2,
+        height = 1,
+        rarity = 'common',
         description = "Description for redfish",
         client = {
             image = "redfish.png",
         },
-        name = "redfish",
-        type = "item",
-        image = "redfish.png",
-        unique = false,
-        useable = true,
-        shouldClose = true,
-        combinable = nil,
     },
     ["captainskull"] = {
         label = "Captainskull",
         weight = 1000,
         stack = true,
         close = true,
+        width = 1,
+        height = 1,
+        rarity = 'common',
         description = "Description for captainskull",
         client = {
             image = "captainskull.png",
         },
-        name = "captainskull",
-        type = "item",
-        image = "captainskull.png",
-        unique = false,
-        useable = true,
-        shouldClose = true,
-        combinable = nil,
     },
     ["fishingrod2"] = {
         label = "Fishingrod2",
         weight = 1000,
         stack = false,
         close = true,
+        width = 1,
+        height = 3,
+        rarity = 'common',
         description = "Description for fishingrod2",
         client = {
             image = "fishingrod2.png",
         },
-        name = "fishingrod2",
-        type = "item",
-        image = "fishingrod2.png",
-        unique = false,
-        useable = true,
-        shouldClose = true,
-        combinable = nil,
     },
     ["killerwhale"] = {
         label = "Killerwhale",
         weight = 1000,
         stack = true,
         close = true,
+        width = 3,
+        height = 2,
+        rarity = 'common',
         description = "Description for killerwhale",
         client = {
             image = "killerwhale.png",
         },
-        name = "killerwhale",
-        type = "item",
-        image = "killerwhale.png",
-        unique = false,
-        useable = true,
-        shouldClose = true,
-        combinable = nil,
     },
     ["sapphire"] = {
         label = "Sapphire",
         weight = 1000,
         stack = true,
         close = true,
+        width = 1,
+        height = 1,
+        rarity = 'uncommon',
         description = "Description for sapphire",
         client = {
             image = "sapphire.png",
         },
-        name = "sapphire",
-        type = "item",
-        image = "sapphire.png",
-        unique = false,
-        useable = true,
-        shouldClose = true,
-        combinable = nil,
     },
     ["bottlemap"] = {
         label = "Bottlemap",
         weight = 1000,
         stack = true,
         close = true,
+        width = 1,
+        height = 2,
+        rarity = 'common',
         description = "Description for bottlemap",
         client = {
             image = "bottlemap.png",
         },
-        name = "bottlemap",
-        type = "item",
-        image = "bottlemap.png",
-        unique = false,
-        useable = true,
-        shouldClose = true,
-        combinable = nil,
     },
     ["fishingtrowl"] = {
         label = "Fishingtrowl",
         weight = 1000,
         stack = false,
         close = true,
+        width = 1,
+        height = 1,
+        rarity = 'common',
         description = "Description for fishingtrowl",
         client = {
             image = "fishingtrowl.png",
         },
-        name = "fishingtrowl",
-        type = "item",
-        image = "fishingtrowl.png",
-        unique = false,
-        useable = true,
-        shouldClose = true,
-        combinable = nil,
     },
     ["gholfish"] = {
         label = "Gholfish",
         weight = 1000,
         stack = true,
         close = true,
+        width = 2,
+        height = 1,
+        rarity = 'common',
         description = "Description for gholfish",
         client = {
             image = "gholfish.png",
         },
-        name = "gholfish",
-        type = "item",
-        image = "gholfish.png",
-        unique = false,
-        useable = true,
-        shouldClose = true,
-        combinable = nil,
     },
     ["fishingrod"] = {
         label = "Fishingrod",
         weight = 1000,
         stack = false,
         close = true,
+        width = 1,
+        height = 3,
+        rarity = 'common',
         description = "Description for fishingrod",
         client = {
             image = "fishingrod.png",
         },
-        name = "fishingrod",
-        type = "item",
-        image = "fishingrod.png",
-        unique = false,
-        useable = true,
-        shouldClose = true,
-        combinable = nil,
     },
     ["stingraymeat"] = {
         label = "Stingraymeat",
         weight = 1000,
         stack = true,
         close = true,
+        width = 1,
+        height = 1,
+        rarity = 'common',
         description = "Description for stingraymeat",
         client = {
             image = "stingraymeat.png",
         },
-        name = "stingraymeat",
-        type = "item",
-        image = "stingraymeat.png",
-        unique = false,
-        useable = true,
-        shouldClose = true,
-        combinable = nil,
     },
     ["bluefish"] = {
         label = "Bluefish",
         weight = 1000,
         stack = true,
         close = true,
+        width = 2,
+        height = 1,
+        rarity = 'common',
         description = "Description for bluefish",
         client = {
             image = "bluefish.png",
         },
-        name = "bluefish",
-        type = "item",
-        image = "bluefish.png",
-        unique = false,
-        useable = true,
-        shouldClose = true,
-        combinable = nil,
     },
     ["fishinganchor"] = {
         label = "Fishinganchor",
         weight = 1000,
         stack = false,
         close = true,
+        width = 2,
+        height = 2,
+        rarity = 'common',
         description = "Description for fishinganchor",
         client = {
             image = "fishinganchor.png",
         },
-        name = "fishinganchor",
-        type = "item",
-        image = "fishinganchor.png",
-        unique = false,
-        useable = true,
-        shouldClose = true,
-        combinable = nil,
     },
     ["sockeyesalmon"] = {
         label = "Sockeyesalmon",
         weight = 1000,
         stack = true,
         close = true,
+        width = 2,
+        height = 1,
+        rarity = 'common',
         description = "Description for sockeyesalmon",
         client = {
             image = "sockeyesalmon.png",
         },
-        name = "sockeyesalmon",
-        type = "item",
-        image = "sockeyesalmon.png",
-        unique = false,
-        useable = true,
-        shouldClose = true,
-        combinable = nil,
     },
     ["rockfish"] = {
         label = "Rockfish",
         weight = 1000,
         stack = true,
         close = true,
+        width = 2,
+        height = 1,
+        rarity = 'common',
         description = "Description for rockfish",
         client = {
             image = "rockfish.png",
         },
-        name = "rockfish",
-        type = "item",
-        image = "rockfish.png",
-        unique = false,
-        useable = true,
-        shouldClose = true,
-        combinable = nil,
     },
     ["flyfish"] = {
         label = "Flyfish",
         weight = 1000,
         stack = true,
         close = true,
+        width = 2,
+        height = 1,
+        rarity = 'common',
         description = "Description for flyfish",
         client = {
             image = "flyfish.png",
         },
-        name = "flyfish",
-        type = "item",
-        image = "flyfish.png",
-        unique = false,
-        useable = true,
-        shouldClose = true,
-        combinable = nil,
     },
     ["tarponfish"] = {
         label = "Tarponfish",
         weight = 1000,
         stack = true,
         close = true,
+        width = 2,
+        height = 1,
+        rarity = 'common',
         description = "Description for tarponfish",
         client = {
             image = "tarponfish.png",
         },
-        name = "tarponfish",
-        type = "item",
-        image = "tarponfish.png",
-        unique = false,
-        useable = true,
-        shouldClose = true,
-        combinable = nil,
     },
     ["fishinghalibut"] = {
         label = "Fishinghalibut",
         weight = 1000,
         stack = true,
         close = true,
+        width = 2,
+        height = 1,
+        rarity = 'common',
         description = "Description for fishinghalibut",
         client = {
             image = "fishinghalibut.png",
         },
-        name = "fishinghalibut",
-        type = "item",
-        image = "fishinghalibut.png",
-        unique = false,
-        useable = true,
-        shouldClose = true,
-        combinable = nil,
     },
     ["anglerfish"] = {
         label = "Anglerfish",
         weight = 1000,
         stack = true,
         close = true,
+        width = 2,
+        height = 1,
+        rarity = 'common',
         description = "Description for anglerfish",
         client = {
             image = "anglerfish.png",
         },
-        name = "anglerfish",
-        type = "item",
-        image = "anglerfish.png",
-        unique = false,
-        useable = true,
-        shouldClose = true,
-        combinable = nil,
     },
     ["kingsalmon"] = {
         label = "Kingsalmon",
         weight = 1000,
         stack = true,
         close = true,
+        width = 2,
+        height = 1,
+        rarity = 'common',
         description = "Description for kingsalmon",
         client = {
             image = "kingsalmon.png",
         },
-        name = "kingsalmon",
-        type = "item",
-        image = "kingsalmon.png",
-        unique = false,
-        useable = true,
-        shouldClose = true,
-        combinable = nil,
     },
     ["mahimahi"] = {
         label = "Mahimahi",
         weight = 1000,
         stack = true,
         close = true,
+        width = 2,
+        height = 1,
+        rarity = 'common',
         description = "Description for mahimahi",
         client = {
             image = "mahimahi.png",
         },
-        name = "mahimahi",
-        type = "item",
-        image = "mahimahi.png",
-        unique = false,
-        useable = true,
-        shouldClose = true,
-        combinable = nil,
     },
     ["crawfish"] = {
         label = "Crawfish",
         weight = 1000,
         stack = true,
         close = true,
+        width = 2,
+        height = 1,
+        rarity = 'common',
         description = "Description for crawfish",
         client = {
             image = "crawfish.png",
         },
-        name = "crawfish",
-        type = "item",
-        image = "crawfish.png",
-        unique = false,
-        useable = true,
-        shouldClose = true,
-        combinable = nil,
     },
     ["oceansturgeon"] = {
         label = "Oceansturgeon",
         weight = 1000,
         stack = true,
         close = true,
+        width = 2,
+        height = 1,
+        rarity = 'common',
         description = "Description for oceansturgeon",
         client = {
             image = "oceansturgeon.png",
         },
-        name = "oceansturgeon",
-        type = "item",
-        image = "oceansturgeon.png",
-        unique = false,
-        useable = true,
-        shouldClose = true,
-        combinable = nil,
     },
     ["fishinglog"] = {
         label = "Fishinglog",
         weight = 1000,
         stack = false,
         close = true,
+        width = 1,
+        height = 3,
+        rarity = 'common',
         description = "Description for fishinglog",
         client = {
             image = "fishinglog.png",
         },
-        name = "fishinglog",
-        type = "item",
-        image = "fishinglog.png",
-        unique = false,
-        useable = true,
-        shouldClose = true,
-        combinable = nil,
     },
     ["fishingcrabtrap"] = {
         label = "Fishingcrabtrap",
         weight = 1000,
         stack = false,
         close = true,
+        width = 2,
+        height = 2,
+        rarity = 'common',
         description = "Description for fishingcrabtrap",
         client = {
             image = "fishingcrabtrap.png",
         },
-        name = "fishingcrabtrap",
-        type = "item",
-        image = "fishingcrabtrap.png",
-        unique = false,
-        useable = true,
-        shouldClose = true,
-        combinable = nil,
     },
     ["bluecrab"] = {
         label = "Bluecrab",
         weight = 1000,
         stack = true,
         close = true,
+        width = 2,
+        height = 1,
+        rarity = 'common',
         description = "Description for bluecrab",
         client = {
             image = "bluecrab.png",
         },
-        name = "bluecrab",
-        type = "item",
-        image = "bluecrab.png",
-        unique = false,
-        useable = true,
-        shouldClose = true,
-        combinable = nil,
     },
     ["dungenesscrab"] = {
         label = "Dungenesscrab",
         weight = 1000,
         stack = true,
         close = true,
+        width = 2,
+        height = 1,
+        rarity = 'common',
         description = "Description for dungenesscrab",
         client = {
             image = "dungenesscrab.png",
         },
-        name = "dungenesscrab",
-        type = "item",
-        image = "dungenesscrab.png",
-        unique = false,
-        useable = true,
-        shouldClose = true,
-        combinable = nil,
     },
     ["rockcrab"] = {
         label = "Rockcrab",
         weight = 1000,
         stack = true,
         close = true,
+        width = 2,
+        height = 1,
+        rarity = 'common',
         description = "Description for rockcrab",
         client = {
             image = "rockcrab.png",
         },
-        name = "rockcrab",
-        type = "item",
-        image = "rockcrab.png",
-        unique = false,
-        useable = true,
-        shouldClose = true,
-        combinable = nil,
     },
     ["redcrab"] = {
         label = "Redcrab",
         weight = 1000,
         stack = true,
         close = true,
+        width = 2,
+        height = 1,
+        rarity = 'common',
         description = "Description for redcrab",
         client = {
             image = "redcrab.png",
         },
-        name = "redcrab",
-        type = "item",
-        image = "redcrab.png",
-        unique = false,
-        useable = true,
-        shouldClose = true,
-        combinable = nil,
     },
     ["snowcrab"] = {
         label = "Snowcrab",
         weight = 1000,
         stack = true,
         close = true,
+        width = 2,
+        height = 1,
+        rarity = 'common',
         description = "Description for snowcrab",
         client = {
             image = "snowcrab.png",
         },
-        name = "snowcrab",
-        type = "item",
-        image = "snowcrab.png",
-        unique = false,
-        useable = true,
-        shouldClose = true,
-        combinable = nil,
     },
     ["cookedcrab"] = {
         label = "Cookedcrab",
         weight = 1000,
         stack = true,
         close = true,
+        width = 2,
+        height = 1,
+        rarity = 'common',
         description = "Description for cookedcrab",
         client = {
             image = "cookedcrab.png",
         },
-        name = "cookedcrab",
-        type = "item",
-        image = "cookedcrab.png",
-        unique = false,
-        useable = true,
-        shouldClose = true,
-        combinable = nil,
     },
 
-
-    -- ADD THIS CODE IN OX_INVENTORY items.lua
-
-    ['bandage'] = {
-        label = 'Bandage',
-        weight = 0,
-        description = 'Can be directly used in the inventory, stops bleeding from wounds and increases health',
-        stack = true,
-    },
     ['ifak'] = {
         label = 'IFAK',
         weight = 200,
         description = 'Can be directly used in the inventory, contains first aid kit',
         stack = true,
         close = true,
+        width = 1,
+        height = 1,
+        rarity = 'uncommon',
     },
     ['painkillers'] = {
         label = 'Painkillers',
@@ -3279,6 +3043,9 @@ return {
         description = 'Can be directly used in the inventory to reduce pain and stress',
         stack = true,
         close = true,
+        width = 1,
+        height = 1,
+        rarity = 'common',
     },
     ['temporary_tourniquet'] = {
         label = 'Temporary Tourniquet',
@@ -3286,6 +3053,9 @@ return {
         description = 'A temporary tourniquet that can directly be used in the inventory to stop bleeding',
         stack = true,
         close = true,
+        width = 1,
+        height = 2,
+        rarity = 'common',
     },
     ['pager'] = {
         label = 'Pager',
@@ -3293,101 +3063,158 @@ return {
         description = 'Used to inform medical staff at the hospital of an incoming patient',
         stack = false,
         close = true,
+        width = 1,
+        height = 1,
+        rarity = 'common',
     },
     ['tourniquet'] = {
         label = 'Tourniquet',
         weight = 10,
         stack = true,
+        width = 1,
+        height = 2,
+        rarity = 'common',
     },
     ['field_dressing'] = {
         label = 'Field Dressing',
         weight = 10,
         stack = true,
+        width = 1,
+        height = 1,
+        rarity = 'common',
     },
     ['elastic_bandage'] = {
         label = 'Elastic Bandage',
         weight = 10,
         stack = true,
+        width = 1,
+        height = 1,
+        rarity = 'common',
     },
     ['quick_clot'] = {
         label = 'Quick Clot',
         weight = 10,
         stack = true,
+        width = 1,
+        height = 1,
+        rarity = 'common',
     },
     ['packing_bandage'] = {
         label = 'Packing Bandage',
         weight = 10,
         stack = true,
+        width = 1,
+        height = 1,
+        rarity = 'common',
     },
     ['sewing_kit'] = {
         label = 'Sewing Kit',
         weight = 10,
         stack = true,
+        width = 2,
+        height = 1,
+        rarity = 'common',
     },
     ['epinephrine'] = {
         label = 'Epinephrine',
         weight = 10,
         description = 'Epinephrine, also known as adrenaline, increases the body\'s pulse as well as suppress pain.',
         stack = true,
+        width = 1,
+        height = 1,
+        rarity = 'common',
     },
     ['morphine'] = {
         label = 'Morphine',
         weight = 10,
         description = 'Morphine decreases the body\'s pulse as well as suppress pain.',
         stack = true,
+        width = 1,
+        height = 1,
+        rarity = 'common',
     },
     ['propofol'] = {
         label = 'Propofol',
         weight = 10,
         description = 'Propofol, is a powerful sedation medication.',
         stack = true,
+        width = 1,
+        height = 1,
+        rarity = 'common',
     },
     ['blood250ml'] = {
         label = 'Blood Pack 250ml',
         weight = 10,
         stack = true,
+        width = 1,
+        height = 1,
+        rarity = 'common',
     },
     ['blood500ml'] = {
         label = 'Blood Pack 500ml',
         weight = 10,
         stack = true,
+        width = 1,
+        height = 1,
+        rarity = 'common',
     },
     ['saline250ml'] = {
         label = 'Saline 250ml',
         weight = 10,
         stack = true,
+        width = 1,
+        height = 1,
+        rarity = 'common',
     },
     ['saline500ml'] = {
         label = 'Saline 500ml',
         weight = 10,
         stack = true,
+        width = 1,
+        height = 1,
+        rarity = 'common',
     },
     ['revivekit'] = {
         label = 'Emergency Revive Kit',
         weight = 10,
         stack = true,
+        width = 2,
+        height = 2,
+        rarity = 'common',
     },
     ['stretcher'] = {
         label = 'Stretcher',
         weight = 1000,
         description = 'A medical stretcher to carry wounded patients',
         stack = true,
+        width = 3,
+        height = 2,
+        rarity = 'common',
     },
     ['wheelchair'] = {
         label = 'Wheelchair',
         weight = 1000,
         stack = true,
+        width = 2,
+        height = 2,
+        rarity = 'common',
     },
     ['crutch'] = {
         label = 'Crutch',
         weight = 1000,
         stack = true,
+        width = 1,
+        height = 2,
+        rarity = 'common',
     },
     ['bodybag'] = {
         label = 'Bodybag',
         weight = 1000,
         description = 'A bag to put dead bodies in',
         stack = true,
+        width = 1,
+        height = 2,
+        rarity = 'common',
     },
     ['ecg'] = {
         label = 'ECG',
@@ -3395,48 +3222,72 @@ return {
         stack = false,
         close = true,
         description = 'Electrocardiography is an electrophysiological examination method of the heart where the heart\'s electrical activity is recorded by electrodes connected to an ECG device.',
+        width = 2,
+        height = 1,
+        rarity = 'common',
     },
     ['neckbrace'] = {
             label = 'Neck Brace',
             weight = 1000,
             description = '',
             stack = true,
+            width = 1,
+            height = 1,
+            rarity = 'common',
     },
     ['neckcast'] = {
             label = 'Neck Cast',
             weight = 1000,
             description = '',
             stack = true,
+            width = 1,
+            height = 1,
+            rarity = 'common',
     },
     ['legsplint'] = {
             label = 'Leg Splint',
             weight = 1000,
             description = '',
             stack = true,
+            width = 1,
+            height = 2,
+            rarity = 'common',
     },
     ['legcast'] = {
             label = 'Leg Cast',
             weight = 1000,
             description = '',
             stack = true,
+            width = 1,
+            height = 2,
+            rarity = 'common',
     },
     ['armsplint'] = {
             label = 'Arm Splint',
             weight = 1000,
             description = '',
             stack = true,
+            width = 1,
+            height = 2,
+            rarity = 'common',
     },
     ['armcast'] = {
             label = 'Arm Cast',
             weight = 1000,
             description = '',
             stack = true,
+            width = 1,
+            height = 2,
+            rarity = 'common',
     },
     ['castsaw'] = {
         label = 'Cast Saw',
         weight = 10,
         description = '',
         stack = true,
+        width = 1,
+        height = 2,
+        rarity = 'common',
     },
 
 
@@ -3446,36 +3297,54 @@ return {
         label = 'Oil Barrel',
         stack = false,
         weight = 0,
+        width = 2,
+        height = 2,
+        rarity = 'common',
     },
     
     ["driveshaft"] = {
         label = 'Drive Shaft',
         weight = 1000,
-        stack = false
+        stack = false,
+        width = 3,
+        height = 1,
+        rarity = 'common',
     },
     
     ["oilfilter"] = {
         label = 'Oil Filter',
         weight = 1000,
-        stack = false
+        stack = false,
+        width = 1,
+        height = 1,
+        rarity = 'common',
     },
     
     ["reliefstring"] = {
         label = 'Relief String',
         weight = 1000,
-        stack = false
+        stack = false,
+        width = 1,
+        height = 1,
+        rarity = 'common',
     },
     
     ["skewgear"] = {
         label = 'Skew Gear',
         weight = 1000,
-        stack = false
+        stack = false,
+        width = 1,
+        height = 1,
+        rarity = 'common',
     },
     
     ["timingchain"] = {
         label = 'Timing Chain',
         weight = 1000,
-        stack = false
+        stack = false,
+        width = 1,
+        height = 1,
+        rarity = 'common',
     },
 
         ["collected_evidence_bag"] = {
@@ -3484,6 +3353,9 @@ return {
 		stack = false,
 		close = false,
 		description = "A filled evidence bag",
+		width = 1,
+		height = 1,
+		rarity = 'common',
 	},
 
 	["evidence_camera"] = {
@@ -3499,6 +3371,9 @@ return {
 			export = "snipe-evidence.useCam"
 		},
 		consume = 0,
+		width = 1,
+		height = 1,
+		rarity = 'common',
 	},
 
 	["evidence_pouch"] = {
@@ -3515,6 +3390,9 @@ return {
 		description = "Pouch to hold all your evidences",
 		consume = 0,
 		allowArmed = true,
+		width = 1,
+		height = 1,
+		rarity = 'common',
 	},
 
 	["dna_swab_kit"] = {
@@ -3530,6 +3408,9 @@ return {
 			export = "snipe-evidence.swabDNA"
 		},
 		consume = 0,
+		width = 1,
+		height = 1,
+		rarity = 'common',
 	},
 
 	["accesstool"] = {
@@ -3545,6 +3426,9 @@ return {
 			export = "snipe-evidence.useAccessTool"
 		},
 		consume = 0,
+		width = 1,
+		height = 1,
+		rarity = 'common',
 	},
 
 	["bleach"] = {
@@ -3553,6 +3437,9 @@ return {
 		stack = false,
 		close = false,
 		description = "Clean up all the blood stains with this",
+		width = 1,
+		height = 1,
+		rarity = 'common',
 	},
 
 	["evidence_tweezers"] = {
@@ -3561,6 +3448,9 @@ return {
 		stack = false,
 		close = false,
 		description = "You can pick up small items with this",
+		width = 1,
+		height = 1,
+		rarity = 'common',
 	},
 
 	["bactester"] = {
@@ -3574,6 +3464,9 @@ return {
             export = "snipe-evidence.UseBacItem"
 		},
 		consume = 0,
+		width = 1,
+		height = 1,
+		rarity = 'common',
 	},
 
 	["gsrkit"] = {
@@ -3587,6 +3480,9 @@ return {
             export = "snipe-evidence.CheckGSR"
 		},
 		consume = 0,
+		width = 1,
+		height = 1,
+		rarity = 'common',
 	},
 
 	["fingerprint_scanner"] = {
@@ -3602,6 +3498,9 @@ return {
 			export = "snipe-evidence.TakeFingerPrint"
 		},
 		consume = 0,
+		width = 1,
+		height = 1,
+		rarity = 'common',
 	},
 
     ['radiocar_dismounter'] = {
@@ -3613,6 +3512,9 @@ return {
         server = {
             export = 'rcore_itemradio.radiocar_dismounter',
         },
+        width = 1,
+        height = 1,
+        rarity = 'common',
     },
     ['radiocar'] = {
         label = 'radiocar gray style',
@@ -3623,6 +3525,9 @@ return {
         server = {
             export = 'rcore_itemradio.radiocar',
         },
+        width = 1,
+        height = 1,
+        rarity = 'common',
     },
     ['radiocar_blue'] = {
         label = 'radiocar blue style',
@@ -3633,6 +3538,9 @@ return {
         server = {
             export = 'rcore_itemradio.radiocar_blue',
         },
+        width = 1,
+        height = 1,
+        rarity = 'common',
     },
 
     ['document'] = {
@@ -3641,7 +3549,10 @@ return {
         consume = 0,
         stack = false,
         close = true,
-        description = nil
+        description = nil,
+        width = 1,
+        height = 1,
+        rarity = 'common',
     },
 
     ['emptydocuments'] = {
@@ -3650,7 +3561,10 @@ return {
         consume = 0,
         stack = true,
         close = true,
-        description = nil
+        description = nil,
+        width = 1,
+        height = 1,
+        rarity = 'common',
     },
 
     ['portablecopier'] = {
@@ -3659,298 +3573,537 @@ return {
         consume = 0,
         stack = true,
         close = false,
-        description = nil
+        description = nil,
+        width = 1,
+        height = 1,
+        rarity = 'common',
     },
 
 
     -- Jim Burgershot
     -- JIM-BURGERSHOT --
     ['potato'] = { label = 'Potatoes', weight = 500, stack = true, close = false, description = 'Bag of potatoes.',
-        client = { image = 'potatoes.png', event = "jim-burgershot:client:Consume", }
+        client = { image = 'potatoes.png', event = "jim-burgershot:client:Consume", },
+        width = 1,
+        height = 1,
+        rarity = 'common',
     },
     ['onion'] = { label = 'Onion', weight = 500, stack = true, close = false, description = 'A whole raw onion.',
-        client = { image = 'burger-onion.png', event = "jim-burgershot:client:Consume", }
+        client = { image = 'burger-onion.png', event = "jim-burgershot:client:Consume", },
+        width = 1,
+        height = 1,
+        rarity = 'common',
     },
     ['lettuce'] = { label = 'Lettuce', weight = 100, stack = true, close = false, description = 'Fresh leafy lettuce.',
-        client = { image = 'lettuce.png', event = "jim-burgershot:client:Consume", }
+        client = { image = 'lettuce.png', event = "jim-burgershot:client:Consume", },
+        width = 1,
+        height = 1,
+        rarity = 'common',
     },
     ['milk'] = { label = 'Milk', weight = 500, stack = true, close = true, description = 'Carton of fresh milk.',
-        client = { image = 'burger-milk.png', event = "jim-burgershot:client:Consume", }
+        client = { image = 'burger-milk.png', event = "jim-burgershot:client:Consume", },
+        width = 1,
+        height = 1,
+        rarity = 'common',
     },
 
     -- Prepared Ingredients
     ['slicedpotato'] = { label = 'Sliced Potatoes', weight = 500, stack = true, close = false, description = 'Sliced fresh potatoes.',
-        client = { image = 'burger-slicedpotato.png', event = "jim-burgershot:client:Consume", }
+        client = { image = 'burger-slicedpotato.png', event = "jim-burgershot:client:Consume", },
+        width = 1,
+        height = 1,
+        rarity = 'common',
     },
     ['slicedonion'] = { label = 'Sliced Onions', weight = 500, stack = true, close = false, description = 'Crispy onion slices.',
-        client = { image = 'burger-slicedonion.png', event = "jim-burgershot:client:Consume", }
+        client = { image = 'burger-slicedonion.png', event = "jim-burgershot:client:Consume", },
+        width = 1,
+        height = 1,
+        rarity = 'common',
     },
     ['cheddar'] = { label = 'Cheddar Slice', weight = 500, stack = true, close = false, description = 'A single slice of cheddar cheese.',
-        client = { image = 'cheddar.png', event = "jim-burgershot:client:Consume", }
+        client = { image = 'cheddar.png', event = "jim-burgershot:client:Consume", },
+        width = 1,
+        height = 1,
+        rarity = 'common',
     },
     ['burgerbun'] = { label = 'Burger Bun', weight = 100, stack = true, close = false, description = 'Soft bun for burgers.',
-        client = { image = 'burgerbun.png', event = "jim-burgershot:client:Consume", }
+        client = { image = 'burgerbun.png', event = "jim-burgershot:client:Consume", },
+        width = 1,
+        height = 1,
+        rarity = 'common',
     },
     ['burgerpatty'] = { label = 'Burger Patty', weight = 500, stack = true, close = false, description = 'Raw beef patty for grilling.',
-        client = { image = 'burgerpatty.png', event = "jim-burgershot:client:Consume", }
+        client = { image = 'burgerpatty.png', event = "jim-burgershot:client:Consume", },
+        width = 1,
+        height = 1,
+        rarity = 'common',
     },
     ['burgermeat'] = { label = 'Burger Meat', weight = 500, stack = true, close = false, description = 'Cooked burger meat patty.',
-        client = { image = 'burgermeat.png', event = "jim-burgershot:client:Consume", }
+        client = { image = 'burgermeat.png', event = "jim-burgershot:client:Consume", },
+        width = 1,
+        height = 1,
+        rarity = 'common',
     },
     ['frozennugget'] = { label = 'Frozen Nuggets', weight = 500, stack = true, close = false, description = 'Bag of frozen chicken nuggets.',
-        client = { image = 'burger-frozennugget.png', event = "jim-burgershot:client:Consume", }
+        client = { image = 'burger-frozennugget.png', event = "jim-burgershot:client:Consume", },
+        width = 1,
+        height = 1,
+        rarity = 'common',
     },
 
     -- Menu: Burgers
     ['heartstopper'] = { label = 'HeartStopper', weight = 200, stack = true, close = true, description = 'Massive heart-stopping burger.',
-        client = { image = 'burger-heartstopper.png', event = "jim-burgershot:client:Consume", }
+        client = { image = 'burger-heartstopper.png', event = "jim-burgershot:client:Consume", },
+        width = 1,
+        height = 1,
+        rarity = 'common',
     },
     ['moneyshot'] = { label = 'Money Shot', weight = 200, stack = true, close = true, description = 'BurgerShot’s signature burger.',
-        client = { image = 'burger-moneyshot.png', event = "jim-burgershot:client:Consume", }
+        client = { image = 'burger-moneyshot.png', event = "jim-burgershot:client:Consume", },
+        width = 1,
+        height = 1,
+        rarity = 'common',
     },
     ['meatfree'] = { label = 'Meat Free', weight = 200, stack = true, close = true, description = 'Plant-based burger option.',
-        client = { image = 'burger-meatfree.png', event = "jim-burgershot:client:Consume", }
+        client = { image = 'burger-meatfree.png', event = "jim-burgershot:client:Consume", },
+        width = 1,
+        height = 1,
+        rarity = 'common',
     },
     ['bleeder'] = { label = 'The Bleeder', weight = 200, stack = true, close = true, description = 'Spicy burger with a kick.',
-        client = { image = 'burger-bleeder.png', event = "jim-burgershot:client:Consume", }
+        client = { image = 'burger-bleeder.png', event = "jim-burgershot:client:Consume", },
+        width = 1,
+        height = 1,
+        rarity = 'common',
     },
     ['torpedo'] = { label = 'Torpedo', weight = 200, stack = true, close = true, description = 'Long sub-style burger.',
-        client = { image = 'burger-torpedo.png', event = "jim-burgershot:client:Consume", }
+        client = { image = 'burger-torpedo.png', event = "jim-burgershot:client:Consume", },
+        width = 1,
+        height = 1,
+        rarity = 'common',
     },
 
     -- Sides
     ['shotnuggets'] = { label = 'Shot Nuggets', weight = 200, stack = true, close = true, description = 'BurgerShot chicken nuggets.',
-        client = { image = 'burger-shotnuggets.png', event = "jim-burgershot:client:Consume", }
+        client = { image = 'burger-shotnuggets.png', event = "jim-burgershot:client:Consume", },
+        width = 1,
+        height = 1,
+        rarity = 'common',
     },
     ['shotrings'] = { label = 'Ring Shots', weight = 200, stack = true, close = true, description = 'BurgerShot onion rings.',
-        client = { image = 'burger-shotrings.png', event = "jim-burgershot:client:Consume", }
+        client = { image = 'burger-shotrings.png', event = "jim-burgershot:client:Consume", },
+        width = 1,
+        height = 1,
+        rarity = 'common',
     },
     ['shotfries'] = { label = 'Shot Fries', weight = 200, stack = true, close = true, description = 'Golden BurgerShot fries.',
-        client = { image = 'burger-fries.png', event = "jim-burgershot:client:Consume", }
+        client = { image = 'burger-fries.png', event = "jim-burgershot:client:Consume", },
+        width = 1,
+        height = 1,
+        rarity = 'common',
     },
 
     -- Wraps
     ['cheesewrap'] = { label = 'BS Cheese Wrap', weight = 150, stack = true, close = true, description = 'Cheesy chicken wrap.',
-        client = { image = 'burger-chickenwrap.png', event = "jim-burgershot:client:Consume", }
+        client = { image = 'burger-chickenwrap.png', event = "jim-burgershot:client:Consume", },
+        width = 1,
+        height = 1,
+        rarity = 'common',
     },
     ['chickenwrap'] = { label = 'BS Goat Cheese Wrap', weight = 150, stack = true, close = true, description = 'Wrap filled with goat cheese.',
-        client = { image = 'burger-goatwrap.png', event = "jim-burgershot:client:Consume", }
+        client = { image = 'burger-goatwrap.png', event = "jim-burgershot:client:Consume", },
+        width = 1,
+        height = 1,
+        rarity = 'common',
     },
 
     -- Drinks
     ['bscoffee'] = { label = 'BurgerShot Coffee', weight = 200, stack = true, close = true, description = 'Hot BurgerShot coffee.',
-        client = { image = 'burger-coffee.png', event = "jim-burgershot:client:Consume", }
+        client = { image = 'burger-coffee.png', event = "jim-burgershot:client:Consume", },
+        width = 1,
+        height = 1,
+        rarity = 'common',
     },
     ['bscoke'] = { label = 'BurgerShot Coke', weight = 200, stack = true, close = true, description = 'Chilled cola beverage.',
-        client = { image = 'burger-softdrink.png', event = "jim-burgershot:client:Consume", }
+        client = { image = 'burger-softdrink.png', event = "jim-burgershot:client:Consume", },
+        width = 1,
+        height = 1,
+        rarity = 'common',
     },
     ['milkshake'] = { label = 'Milkshake', weight = 500, stack = true, close = true, description = 'Thick and sweet milkshake.',
-        client = { image = 'burger-milkshake.png', event = "jim-burgershot:client:Consume", }
+        client = { image = 'burger-milkshake.png', event = "jim-burgershot:client:Consume", },
+        width = 1,
+        height = 1,
+        rarity = 'common',
     },
 
     -- Desserts
     ['rimjob'] = { label = 'Rim Job', weight = 200, stack = true, close = true, description = 'BurgerShot donut treat.',
-        client = { image = 'burger-rimjob.png', event = "jim-burgershot:client:Consume", }
+        client = { image = 'burger-rimjob.png', event = "jim-burgershot:client:Consume", },
+        width = 1,
+        height = 1,
+        rarity = 'common',
     },
     ['creampie'] = { label = 'Creampie', weight = 200, stack = true, close = true, description = 'Classic apple pie dessert.',
-        client = { image = 'burger-creampie.png', event = "jim-burgershot:client:Consume", }
+        client = { image = 'burger-creampie.png', event = "jim-burgershot:client:Consume", },
+        width = 1,
+        height = 1,
+        rarity = 'common',
     },
     ['icecream'] = { label = 'Ice Cream', weight = 500, stack = true, close = false, description = 'Chilled and creamy dessert.',
-        client = { image = 'burger-icecream.png', event = "jim-burgershot:client:Consume", }
+        client = { image = 'burger-icecream.png', event = "jim-burgershot:client:Consume", },
+        width = 1,
+        height = 1,
+        rarity = 'common',
     },
 
     -- Specials
     ['murderbag'] = { label = 'Murder Bag', weight = 0, stack = false, close = true, description = 'A surprise bag full of burgers.',
-        client = { image = 'burgerbag.png', }
+        client = { image = 'burgerbag.png', },
+        width = 1,
+        height = 1,
+        rarity = 'common',
     },
 
     ['water_bottle'] = { label = "Water Bottle", weight = 300, stack = true, close = true, description = "For all the thirsty out there",
-        client = { image = "water.png", event = "jim-burgershot:client:Consume", }
+        client = { image = "water.png", event = "jim-burgershot:client:Consume", },
+        width = 1,
+        height = 1,
+        rarity = 'common',
     },
 
 
     -- JIM-VANILLAUNICORN --
     ['cubasil'] = { label = "Cucumber Basil", weight = 200, stack = true, close = false, description = "Hand full of Cucumber and Basil",
-        client = { image = "cubasil.png", event = "jim-vanillaunicorn:client:Consume", }
+        client = { image = "cubasil.png", event = "jim-vanillaunicorn:client:Consume", },
+        width = 1,
+        height = 1,
+        rarity = 'common',
     },
     ['mintleaf'] = { label = "Mint", weight = 200, stack = true, close = false, description = "Fresh mint leaves",
-        client = { image = "mint.png", event = "jim-vanillaunicorn:client:Consume", }
+        client = { image = "mint.png", event = "jim-vanillaunicorn:client:Consume", },
+        width = 1,
+        height = 1,
+        rarity = 'common',
     },
     ['peach'] = { label = "Peach", weight = 200, stack = true, close = true, description = "A juicy peach",
-        client = { image = "peach.png", event = "jim-vanillaunicorn:client:Consume", }
+        client = { image = "peach.png", event = "jim-vanillaunicorn:client:Consume", },
+        width = 1,
+        height = 1,
+        rarity = 'common',
     },
     ['strawberry'] = { label = "Strawberries", weight = 200, stack = true, close = true, description = "Fresh strawberries",
-        client = { image = "strawberry.png", event = "jim-vanillaunicorn:client:Consume", }
+        client = { image = "strawberry.png", event = "jim-vanillaunicorn:client:Consume", },
+        width = 1,
+        height = 1,
+        rarity = 'common',
     },
     ['orange'] = { label = "Orange", weight = 200, stack = true, close = true, description = "A ripe orange",
-        client = { image = "orange.png", event = "jim-vanillaunicorn:client:Consume", }
+        client = { image = "orange.png", event = "jim-vanillaunicorn:client:Consume", },
+        width = 1,
+        height = 1,
+        rarity = 'common',
     },
     ['lime'] = { label = "Lime", weight = 200, stack = true, close = true, description = "A fresh lime",
-        client = { image = "lime.png", event = "jim-vanillaunicorn:client:Consume", }
+        client = { image = "lime.png", event = "jim-vanillaunicorn:client:Consume", },
+        width = 1,
+        height = 1,
+        rarity = 'common',
     },
     ['lemon'] = { label = "Lemon", weight = 200, stack = true, close = true, description = "A tangy lemon",
-        client = { image = "lemon.png", event = "jim-vanillaunicorn:client:Consume", }
+        client = { image = "lemon.png", event = "jim-vanillaunicorn:client:Consume", },
+        width = 1,
+        height = 1,
+        rarity = 'common',
     },
     ['chocolate'] = { label = "Chocolate", weight = 200, stack = true, close = true, description = "A sweet chocolate bar",
-        client = { image = "chocolate.png", event = "jim-vanillaunicorn:client:Consume", }
+        client = { image = "chocolate.png", event = "jim-vanillaunicorn:client:Consume", },
+        width = 1,
+        height = 1,
+        rarity = 'common',
     },
 
     -- Juices & Mixers
     ['cranberry'] = { label = "Cranberry Juice", weight = 200, stack = true, close = true, description = "Tart cranberry juice",
-        client = { image = "cranberry.png", event = "jim-vanillaunicorn:client:Consume", }
+        client = { image = "cranberry.png", event = "jim-vanillaunicorn:client:Consume", },
+        width = 1,
+        height = 1,
+        rarity = 'common',
     },
     ['pinejuice'] = { label = "Pineapple Juice", weight = 200, stack = true, close = true, description = "Juicy pineapple goodness",
-        client = { image = "pinejuice.png", event = "jim-vanillaunicorn:client:Consume", }
+        client = { image = "pinejuice.png", event = "jim-vanillaunicorn:client:Consume", },
+        width = 1,
+        height = 1,
+        rarity = 'common',
     },
 
     -- Liqueurs & Alcohol
     ['gin'] = { label = "Gin", weight = 200, stack = true, close = true, description = "A bottle of gin",
-        client = { image = "gin.png", event = "jim-vanillaunicorn:client:Consume", }
+        client = { image = "gin.png", event = "jim-vanillaunicorn:client:Consume", },
+        width = 1,
+        height = 1,
+        rarity = 'common',
     },
     ['rum'] = { label = "Rum", weight = 200, stack = true, close = true, description = "Dark or white rum",
-        client = { image = "rum.png", event = "jim-vanillaunicorn:client:Consume", }
+        client = { image = "rum.png", event = "jim-vanillaunicorn:client:Consume", },
+        width = 1,
+        height = 1,
+        rarity = 'common',
     },
     ['tequila'] = { label = "Tequila", weight = 200, stack = true, close = true, description = "A shot of tequila",
-        client = { image = "tequila.png", event = "jim-vanillaunicorn:client:Consume", }
+        client = { image = "tequila.png", event = "jim-vanillaunicorn:client:Consume", },
+        width = 1,
+        height = 1,
+        rarity = 'common',
     },
     ['triplsec'] = { label = "Triple Sec", weight = 200, stack = true, close = true, description = "Citrusy liqueur",
-        client = { image = "triplesec.png", event = "jim-vanillaunicorn:client:Consume", }
+        client = { image = "triplesec.png", event = "jim-vanillaunicorn:client:Consume", },
+        width = 1,
+        height = 1,
+        rarity = 'common',
     },
     ['midori'] = { label = "Midori", weight = 200, stack = true, close = true, description = "Melon liqueur",
-        client = { image = "midori.png", event = "jim-vanillaunicorn:client:Consume", }
+        client = { image = "midori.png", event = "jim-vanillaunicorn:client:Consume", },
+        width = 1,
+        height = 1,
+        rarity = 'common',
     },
     ['prosecco'] = { label = "Prosecco", weight = 200, stack = true, close = true, description = "Sparkling prosecco",
-        client = { image = "prosecco.png", event = "jim-vanillaunicorn:client:Consume", }
+        client = { image = "prosecco.png", event = "jim-vanillaunicorn:client:Consume", },
+        width = 1,
+        height = 1,
+        rarity = 'common',
     },
     ['amaretto'] = { label = "Amaretto", weight = 200, stack = true, close = true, description = "Sweet almond liqueur",
-        client = { image = "amaretto.png", event = "jim-vanillaunicorn:client:Consume", }
+        client = { image = "amaretto.png", event = "jim-vanillaunicorn:client:Consume", },
+        width = 1,
+        height = 1,
+        rarity = 'common',
     },
 
     -- Cocktails
     ['amarettosour'] = { label = "Amaretto Sour", weight = 200, stack = true, close = true, description = "Sweet and sour cocktail",
-        client = { image = "amarettosour.png", event = "jim-vanillaunicorn:client:Consume", }
+        client = { image = "amarettosour.png", event = "jim-vanillaunicorn:client:Consume", },
+        width = 1,
+        height = 1,
+        rarity = 'common',
     },
     ['bellini'] = { label = "Bellini", weight = 200, stack = true, close = true, description = "Peach & prosecco",
-        client = { image = "bellini.png", event = "jim-vanillaunicorn:client:Consume", }
+        client = { image = "bellini.png", event = "jim-vanillaunicorn:client:Consume", },
+        width = 1,
+        height = 1,
+        rarity = 'common',
     },
     ['cosmopolitan'] = { label = "Cosmopolitan", weight = 200, stack = true, close = true, description = "Cranberry & vodka blend",
-        client = { image = "cosmopolitan.png", event = "jim-vanillaunicorn:client:Consume", }
+        client = { image = "cosmopolitan.png", event = "jim-vanillaunicorn:client:Consume", },
+        width = 1,
+        height = 1,
+        rarity = 'common',
     },
     ['longisland'] = { label = "Long Island Ice tea", weight = 200, stack = true, close = true, description = "Strong cocktail mix",
-        client = { image = "longisland.png", event = "jim-vanillaunicorn:client:Consume", }
+        client = { image = "longisland.png", event = "jim-vanillaunicorn:client:Consume", },
+        width = 1,
+        height = 1,
+        rarity = 'common',
     },
     ['margarita'] = { label = "Margarita", weight = 200, stack = true, close = true, description = "Classic lime margarita",
-        client = { image = "margarita.png", event = "jim-vanillaunicorn:client:Consume", }
+        client = { image = "margarita.png", event = "jim-vanillaunicorn:client:Consume", },
+        width = 1,
+        height = 1,
+        rarity = 'common',
     },
     ['pinacolada'] = { label = "Pina Colada", weight = 200, stack = true, close = true, description = "Pineapple coconut delight",
-        client = { image = "pinacolada.png", event = "jim-vanillaunicorn:client:Consume", }
+        client = { image = "pinacolada.png", event = "jim-vanillaunicorn:client:Consume", },
+        width = 1,
+        height = 1,
+        rarity = 'common',
     },
     ['sangria'] = { label = "Sangria", weight = 200, stack = true, close = true, description = "Fruity wine punch",
-        client = { image = "sangria.png", event = "jim-vanillaunicorn:client:Consume", }
+        client = { image = "sangria.png", event = "jim-vanillaunicorn:client:Consume", },
+        width = 1,
+        height = 1,
+        rarity = 'common',
     },
     ['screwdriver'] = { label = "Screwdriver", weight = 200, stack = true, close = true, description = "Vodka and orange juice",
-        client = { image = "screwdriver.png", event = "jim-vanillaunicorn:client:Consume", }
+        client = { image = "screwdriver.png", event = "jim-vanillaunicorn:client:Consume", },
+        width = 1,
+        height = 1,
+        rarity = 'common',
     },
     ['strawdaquiri'] = { label = "Strawberry Daquiri", weight = 200, stack = true, close = true, description = "Frozen strawberry cocktail",
-        client = { image = "strawdaquiri.png", event = "jim-vanillaunicorn:client:Consume", }
+        client = { image = "strawdaquiri.png", event = "jim-vanillaunicorn:client:Consume", },
+        width = 1,
+        height = 1,
+        rarity = 'common',
     },
     ['strawmargarita'] = { label = "Strawberry Margarita", weight = 200, stack = true, close = true, description = "Strawberry twist on a margarita",
-        client = { image = "strawmargarita.png", event = "jim-vanillaunicorn:client:Consume", }
+        client = { image = "strawmargarita.png", event = "jim-vanillaunicorn:client:Consume", },
+        width = 1,
+        height = 1,
+        rarity = 'common',
     },
 
     -- Beers
     ['ambeer'] = { label = "AM Beer", weight = 100, stack = true, close = true, description = "A light beer",
-        client = { image = "ambeer.png", event = "jim-vanillaunicorn:client:Consume", }
+        client = { image = "ambeer.png", event = "jim-vanillaunicorn:client:Consume", },
+        width = 1,
+        height = 1,
+        rarity = 'common',
     },
     ['dusche'] = { label = "Dusche Gold", weight = 100, stack = true, close = true, description = "Premium lager",
-        client = { image = "dusche.png", event = "jim-vanillaunicorn:client:Consume", }
+        client = { image = "dusche.png", event = "jim-vanillaunicorn:client:Consume", },
+        width = 1,
+        height = 1,
+        rarity = 'common',
     },
     ['logger'] = { label = "Logger Beer", weight = 100, stack = true, close = true, description = "Full-bodied beer",
-        client = { image = "logger.png", event = "jim-vanillaunicorn:client:Consume", }
+        client = { image = "logger.png", event = "jim-vanillaunicorn:client:Consume", },
+        width = 1,
+        height = 1,
+        rarity = 'common',
     },
     ['pisswasser'] = { label = "Pißwasser", weight = 100, stack = true, close = true, description = "Cheap lager",
-        client = { image = "pisswaser1.png", event = "jim-vanillaunicorn:client:Consume", }
+        client = { image = "pisswaser1.png", event = "jim-vanillaunicorn:client:Consume", },
+        width = 1,
+        height = 1,
+        rarity = 'common',
     },
     ['pisswasser2'] = { label = "Pißwasser Stout", weight = 100, stack = true, close = true, description = "Dark and rich",
-        client = { image = "pisswaser2.png", event = "jim-vanillaunicorn:client:Consume", }
+        client = { image = "pisswaser2.png", event = "jim-vanillaunicorn:client:Consume", },
+        width = 1,
+        height = 1,
+        rarity = 'common',
     },
     ['pisswasser3'] = { label = "Pißwasser Pale Ale", weight = 100, stack = true, close = true, description = "Crisp pale ale",
-        client = { image = "pisswaser3.png", event = "jim-vanillaunicorn:client:Consume", }
+        client = { image = "pisswaser3.png", event = "jim-vanillaunicorn:client:Consume", },
+        width = 1,
+        height = 1,
+        rarity = 'common',
     },
-
-    -- Soft Drinks
-    ['sprunk'] = { label = "Sprunk", weight = 100, stack = true, close = true, description = "Fizzy green soda",
-        client = { image = "sprunk.png", event = "jim-vanillaunicorn:client:Consume", }
-    },
+    
     ['sprunklight'] = { label = "Sprunk Light", weight = 100, stack = true, close = true, description = "Diet version of Sprunk",
-        client = { image = "sprunklight.png", event = "jim-vanillaunicorn:client:Consume", }
+        client = { image = "sprunklight.png", event = "jim-vanillaunicorn:client:Consume", },
+        width = 1,
+        height = 1,
+        rarity = 'common',
     },
     ['ecola'] = { label = "eCola", weight = 100, stack = true, close = true, description = "Cola beverage",
-        client = { image = "ecola.png", event = "jim-vanillaunicorn:client:Consume", }
+        client = { image = "ecola.png", event = "jim-vanillaunicorn:client:Consume", },
+        width = 1,
+        height = 1,
+        rarity = 'common',
     },
     ['ecolalight'] = { label = "eCola Light", weight = 100, stack = true, close = true, description = "Light cola beverage",
-        client = { image = "ecolalight.png", event = "jim-vanillaunicorn:client:Consume", }
+        client = { image = "ecolalight.png", event = "jim-vanillaunicorn:client:Consume", },
+        width = 1,
+        height = 1,
+        rarity = 'common',
     },
 
     -- Snacks & Sides
     ['crisps'] = { label = "Crisps", weight = 100, stack = true, close = true, description = "A bag of crisps",
-        client = { image = "chips.png", event = "jim-vanillaunicorn:client:Consume", }
+        client = { image = "chips.png", event = "jim-vanillaunicorn:client:Consume", },
+        width = 1,
+        height = 1,
+        rarity = 'common',
     },
     ['tots'] = { label = "Tits or Tots", weight = 200, stack = true, close = true, description = "Cheeky golden tots",
-        client = { image = "tots.png", event = "jim-vanillaunicorn:client:Consume", }
+        client = { image = "tots.png", event = "jim-vanillaunicorn:client:Consume", },
+        width = 1,
+        height = 1,
+        rarity = 'common',
     },
 
     -- Plates & Meals
     ['nplate'] = { label = "Nachos Plate", weight = 200, stack = true, close = true, description = "A plate of nachos and cheese",
-        client = { image = "nplate.png", event = "jim-vanillaunicorn:client:Consume", }
+        client = { image = "nplate.png", event = "jim-vanillaunicorn:client:Consume", },
+        width = 1,
+        height = 1,
+        rarity = 'common',
     },
     ['vusliders'] = { label = "Sliders", weight = 200, stack = true, close = true, description = "Mini burger sliders",
-        client = { image = "sliders.png", event = "jim-vanillaunicorn:client:Consume", }
+        client = { image = "sliders.png", event = "jim-vanillaunicorn:client:Consume", },
+        width = 1,
+        height = 1,
+        rarity = 'common',
     },
     ['vutacos'] = { label = "Tacos", weight = 200, stack = true, close = true, description = "Delicious tacos",
-        client = { image = "tacos.png", event = "jim-vanillaunicorn:client:Consume", }
+        client = { image = "tacos.png", event = "jim-vanillaunicorn:client:Consume", },
+        width = 1,
+        height = 1,
+        rarity = 'common',
     },
     ['nachos'] = { label = "Nachos", weight = 200, stack = true, close = true, description = "Crunchy nacho chips",
-        client = { image = "nachos.png", event = "jim-vanillaunicorn:client:Consume", }
+        client = { image = "nachos.png", event = "jim-vanillaunicorn:client:Consume", },
+        width = 1,
+        height = 1,
+        rarity = 'common',
     },
 
     -- Raw Ingredients
     ['meat'] = { label = "Meat", weight = 200, stack = true, close = true, description = "A slab of meat",
-        client = { image = "meat.png", event = "jim-vanillaunicorn:client:Consume", }
+        client = { image = "meat.png", event = "jim-vanillaunicorn:client:Consume", },
+        width = 1,
+        height = 1,
+        rarity = 'common',
     },
-
-    -- NOTE: Duplicates removed (already defined in your BurgerShot list): lettuce, cheddar, potato
-    -- If you *want* VU to have its own versions, tell me and I’ll re-add them with unique item names.
 
     ['vodka'] = { label = "Vodka", weight = 500, stack = true, close = true, description = "For all the thirsty out there",
-        client = { image = "vodka.png", event = "jim-vanillaunicorn:client:Consume", }
+        client = { image = "vodka.png", event = "jim-vanillaunicorn:client:Consume", },
+        width = 1,
+        height = 1,
+        rarity = 'common',
     },
     ['coffee'] = { label = "Coffee", weight = 200, stack = true, close = true, description = "Pump 4 Caffeine",
-        client = { image = "coffee.png", event = "jim-vanillaunicorn:client:Consume", }
+        client = { image = "coffee.png", event = "jim-vanillaunicorn:client:Consume", },
+        width = 1,
+        height = 1,
+        rarity = 'common',
     },
 
 
     -- Glass Soft Drinks (these are NEW, so they stay)
     ['sprunk_glass'] = { label = "Glass of Sprunk", weight = 100, stack = true, close = true, description = "Fizzy green soda",
-        client = { image = "sprunk_glass.png", event = "jim-bahamamamas:client:Consume", }
+        client = { image = "sprunk_glass.png", event = "jim-bahamamamas:client:Consume", },
+        width = 1,
+        height = 1,
+        rarity = 'common',
     },
     ['sprunklight_glass'] = { label = "Glass of Sprunk Light", weight = 100, stack = true, close = true, description = "Diet version of Sprunk",
-        client = { image = "sprunklight_glass.png", event = "jim-bahamamamas:client:Consume", }
+        client = { image = "sprunklight_glass.png", event = "jim-bahamamamas:client:Consume", },
+        width = 1,
+        height = 1,
+        rarity = 'common',
     },
     ['ecola_glass'] = { label = "Glass of eCola", weight = 100, stack = true, close = true, description = "Cola beverage",
-        client = { image = "ecola_glass.png", event = "jim-bahamamamas:client:Consume", }
+        client = { image = "ecola_glass.png", event = "jim-bahamamamas:client:Consume", },
+        width = 1,
+        height = 1,
+        rarity = 'common',
     },
     ['ecolalight_glass'] = { label = "Glass of eCola Light", weight = 100, stack = true, close = true, description = "Light cola beverage",
-        client = { image = "ecolalight_glass.png", event = "jim-bahamamamas:client:Consume", }
+        client = { image = "ecolalight_glass.png", event = "jim-bahamamamas:client:Consume", },
+        width = 1,
+        height = 1,
+        rarity = 'common',
     },
     ['raine_glass'] = { label = "Glass of Raine", weight = 100, stack = true, close = true, description = "Refreshing Raine beverage",
-        client = { image = "raine_glass.png", event = "jim-bahamamamas:client:Consume", }
+        client = { image = "raine_glass.png", event = "jim-bahamamamas:client:Consume", },
+        width = 1,
+        height = 1,
+        rarity = 'common',
     },
     ['junkdrink_glass'] = { label = "Glass of Junk", weight = 100, stack = true, close = true, description = "The Quick Fix",
-        client = { image = "junkdrink_glass.png", event = "jim-bahamamamas:client:Consume", }
+        client = { image = "junkdrink_glass.png", event = "jim-bahamamamas:client:Consume", },
+        width = 1,
+        height = 1,
+        rarity = 'common',
     },
     ['orangotang_glass'] = { label = "Glass of Orang-o-tang", weight = 100, stack = true, close = true, description = "Me Pongo, Pongo Thirsty",
-        client = { image = "orangotang_glass.png", event = "jim-bahamamamas:client:Consume", }
+        client = { image = "orangotang_glass.png", event = "jim-bahamamamas:client:Consume", },
+        width = 1,
+        height = 1,
+        rarity = 'common',
     },
 
 
@@ -3962,7 +4115,10 @@ return {
         description = "Deliciously cooked meat, perfect for a meal during your hunting adventure.",
         client = {
             image = "gg_hunting_cookedmeat.png",
-        }
+        },
+        width = 1,
+        height = 1,
+        rarity = 'common',
     },
 
     ["gg_boar_tusk_02"] = {
@@ -3973,7 +4129,10 @@ return {
         description = "A sturdy boar tusk with a moderate value, suitable for crafting or trade.",
         client = {
             image = "gg_boar_tusk_02.png",
-        }
+        },
+        width = 1,
+        height = 1,
+        rarity = 'common',
     },
 
     ["gg_boar_tusk_01"] = {
@@ -3984,7 +4143,10 @@ return {
         description = "A basic, crude boar tusk with minimal value.",
         client = {
             image = "gg_boar_tusk_01.png",
-        }
+        },
+        width = 1,
+        height = 1,
+        rarity = 'common',
     },
 
     ["gg_cougar_claw_03"] = {
@@ -3995,7 +4157,10 @@ return {
         description = "A high-quality cougar claw, highly valued by traders and craftsmen.",
         client = {
             image = "gg_cougar_claw_03.png",
-        }
+        },
+        width = 1,
+        height = 1,
+        rarity = 'common',
     },
 
     ["gg_captured_hen"] = {
@@ -4006,7 +4171,10 @@ return {
         description = "A captured hen, a tempting bait for larger predators seeking prey.",
         client = {
             image = "gg_captured_hen.png",
-        }
+        },
+        width = 1,
+        height = 1,
+        rarity = 'common',
     },
 
     ["gg_hunting_campfire"] = {
@@ -4017,7 +4185,10 @@ return {
         description = "A compact campfire setup for warming up, cooking, and providing light during long hunting expeditions.",
         client = {
             image = "gg_hunting_campfire.png",
-        }
+        },
+        width = 1,
+        height = 1,
+        rarity = 'common',
     },
 
     ["gg_captured_rabbit"] = {
@@ -4028,7 +4199,10 @@ return {
         description = "A captured rabbit, perfect for luring carnivores as high-quality bait.",
         client = {
             image = "gg_captured_rabbit.png",
-        }
+        },
+        width = 1,
+        height = 1,
+        rarity = 'common',
     },
 
     ["gg_deer_hide_03"] = {
@@ -4039,7 +4213,10 @@ return {
         description = "A high-quality, flawless deer hide highly valued by traders.",
         client = {
             image = "gg_deer_hide_03.png",
-        }
+        },
+        width = 1,
+        height = 1,
+        rarity = 'common',
     },
 
     ["gg_hunting_knife_02"] = {
@@ -4050,7 +4227,10 @@ return {
         description = "A well-crafted hunting knife offering improved precision for more efficient butchering.",
         client = {
             image = "gg_hunting_knife_02.png",
-        }
+        },
+        width = 1,
+        height = 1,
+        rarity = 'common',
     },
 
     ["gg_cougar_claw_02"] = {
@@ -4061,7 +4241,10 @@ return {
         description = "A sturdy cougar claw, suitable for crafting or trade.",
         client = {
             image = "gg_cougar_claw_02.png",
-        }
+        },
+        width = 1,
+        height = 1,
+        rarity = 'common',
     },
 
     ["gg_rabbit_pelt_03"] = {
@@ -4072,7 +4255,10 @@ return {
         description = "A high-quality rabbit pelt, highly valued by traders and craftsmen.",
         client = {
             image = "gg_rabbit_pelt_03.png",
-        }
+        },
+        width = 1,
+        height = 1,
+        rarity = 'common',
     },
 
     ["gg_rabbit_pelt_02"] = {
@@ -4083,7 +4269,10 @@ return {
         description = "A decent-quality rabbit pelt, suitable for crafting or trade.",
         client = {
             image = "gg_rabbit_pelt_02.png",
-        }
+        },
+        width = 1,
+        height = 1,
+        rarity = 'common',
     },
 
     ["gg_deer_hide_02"] = {
@@ -4094,7 +4283,10 @@ return {
         description = "A good-quality deer hide, suitable for crafting or trade.",
         client = {
             image = "gg_deer_hide_02.png",
-        }
+        },
+        width = 1,
+        height = 1,
+        rarity = 'common',
     },
 
     ["gg_deer_hide_01"] = {
@@ -4105,7 +4297,10 @@ return {
         description = "A basic, coarse deer hide with minimal value.",
         client = {
             image = "gg_deer_hide_01.png",
-        }
+        },
+        width = 1,
+        height = 1,
+        rarity = 'common',
     },
 
     ["gg_salt_block_01"] = {
@@ -4116,7 +4311,10 @@ return {
         description = "A simple salt block used to attract animals.",
         client = {
             image = "gg_salt_block_01.png",
-        }
+        },
+        width = 1,
+        height = 1,
+        rarity = 'common',
     },
 
     ["gg_hunting_animaltrap"] = {
@@ -4127,7 +4325,10 @@ return {
         description = "A durable trap designed to capture animals alive for easier transportation or use as bait.",
         client = {
             image = "gg_hunting_animaltrap.png",
-        }
+        },
+        width = 1,
+        height = 1,
+        rarity = 'common',
     },
 
     ["gg_hunting_animaltracker"] = {
@@ -4138,7 +4339,10 @@ return {
         description = "A sophisticated device used to track animal movements across the terrain, aiding hunters in locating their prey.",
         client = {
             image = "gg_hunting_animaltracker.png",
-        }
+        },
+        width = 1,
+        height = 1,
+        rarity = 'common',
     },
 
     ["gg_hunting_knife_03"] = {
@@ -4149,7 +4353,10 @@ return {
         description = "A top-tier hunting knife, designed for expert hunters, providing unmatched sharpness and durability for butchering.",
         client = {
             image = "gg_hunting_knife_03.png",
-        }
+        },
+        width = 1,
+        height = 1,
+        rarity = 'common',
     },
 
     ["gg_pug_bait_01"] = {
@@ -4160,7 +4367,10 @@ return {
         description = "A simple and crude bait for attracting pugs.",
         client = {
             image = "gg_pug_bait_01.png",
-        }
+        },
+        width = 1,
+        height = 1,
+        rarity = 'common',
     },
 
     ["gg_salt_block_03"] = {
@@ -4171,7 +4381,10 @@ return {
         description = "A high-quality salt block, highly effective at attracting animals.",
         client = {
             image = "gg_salt_block_03.png",
-        }
+        },
+        width = 1,
+        height = 1,
+        rarity = 'common',
     },
 
     ["gg_hunting_meat"] = {
@@ -4182,7 +4395,10 @@ return {
         description = "Freshly harvested meat from a hunt, ideal for cooking or trade.",
         client = {
             image = "gg_hunting_meat.png",
-        }
+        },
+        width = 1,
+        height = 1,
+        rarity = 'common',
     },
 
     ["gg_pug_bait_02"] = {
@@ -4193,7 +4409,10 @@ return {
         description = "A more effective bait to lure in pugs, with a stronger scent.",
         client = {
             image = "gg_pug_bait_02.png",
-        }
+        },
+        width = 1,
+        height = 1,
+        rarity = 'common',
     },
 
     ["gg_pug_bait_03"] = {
@@ -4204,7 +4423,10 @@ return {
         description = "A premium bait crafted to attract the rarest of pugs.",
         client = {
             image = "gg_pug_bait_03.png",
-        }
+        },
+        width = 1,
+        height = 1,
+        rarity = 'common',
     },
 
     ["gg_coyote_fangs_01"] = {
@@ -4215,7 +4437,10 @@ return {
         description = "A basic coyote fang with minimal value.",
         client = {
             image = "gg_coyote_fangs_01.png",
-        }
+        },
+        width = 1,
+        height = 1,
+        rarity = 'common',
     },
 
     ["gg_hunting_knife_01"] = {
@@ -4226,7 +4451,10 @@ return {
         description = "A reliable, entry-level hunting knife ideal for basic butchering tasks.",
         client = {
             image = "gg_hunting_knife_01.png",
-        }
+        },
+        width = 1,
+        height = 1,
+        rarity = 'common',
     },
 
     ["gg_cougar_claw_01"] = {
@@ -4237,7 +4465,10 @@ return {
         description = "A basic cougar claw with minimal value.",
         client = {
             image = "gg_cougar_claw_01.png",
-        }
+        },
+        width = 1,
+        height = 1,
+        rarity = 'common',
     },
 
     ["gg_boar_tusk_03"] = {
@@ -4248,7 +4479,10 @@ return {
         description = "A high-quality boar tusk, highly valued by craftsmen and traders.",
         client = {
             image = "gg_boar_tusk_03.png",
-        }
+        },
+        width = 1,
+        height = 1,
+        rarity = 'common',
     },
 
     ["gg_salt_block_02"] = {
@@ -4259,7 +4493,10 @@ return {
         description = "A refined salt block that draws in more animals.",
         client = {
             image = "gg_salt_block_02.png",
-        }
+        },
+        width = 1,
+        height = 1,
+        rarity = 'common',
     },
 
     ["gg_captured_chickenhawk"] = {
@@ -4270,7 +4507,10 @@ return {
         description = "A captured chickenhawk, a rare and enticing bait that attracts powerful predators.",
         client = {
             image = "gg_captured_chickenhawk.png",
-        }
+        },
+        width = 1,
+        height = 1,
+        rarity = 'common',
     },
 
     ["gg_rabbit_pelt_01"] = {
@@ -4281,7 +4521,10 @@ return {
         description = "A basic rabbit pelt with minimal value.",
         client = {
             image = "gg_rabbit_pelt_01.png",
-        }
+        },
+        width = 1,
+        height = 1,
+        rarity = 'common',
     },
 
     ["gg_coyote_fangs_03"] = {
@@ -4292,7 +4535,10 @@ return {
         description = "A high-quality coyote fang, highly valued by traders and craftsmen.",
         client = {
             image = "gg_coyote_fangs_03.png",
-        }
+        },
+        width = 1,
+        height = 1,
+        rarity = 'common',
     },
 
     ["gg_coyote_fangs_02"] = {
@@ -4303,7 +4549,10 @@ return {
         description = "A sturdy coyote fang, suitable for crafting or trade.",
         client = {
             image = "gg_coyote_fangs_02.png",
-        }
+        },
+        width = 1,
+        height = 1,
+        rarity = 'common',
     },
 
     ['citation'] = {
@@ -4314,7 +4563,10 @@ return {
         description = 'Official law enforcement citation.',
         client = {
             export = 'cryptic_citation.usePaperwork'
-        }
+        },
+        width = 1,
+        height = 1,
+        rarity = 'common',
     },
 
     ['written_warning'] = {
@@ -4325,7 +4577,10 @@ return {
         description = 'Official law enforcement written warning.',
         client = {
             export = 'cryptic_citation.usePaperwork'
-        }
+        },
+        width = 1,
+        height = 1,
+        rarity = 'common',
     },
 
     ['fine_receipt'] = {
@@ -4334,6 +4589,9 @@ return {
         stack = false,
         close = true,
         description = 'Proof of payment for a court fine.',
+        width = 1,
+        height = 1,
+        rarity = 'common',
     },
 
     -- op-crime/gang shit
@@ -4346,7 +4604,10 @@ return {
     description = 'A tablet for various crime-related tasks.',
     client = {
 	    event = 'op-crime:openCrimeTablet'
-        }
+        },
+        width = 1,
+        height = 1,
+        rarity = 'common',
     },
     
     ['rope'] = {
@@ -4354,7 +4615,10 @@ return {
         weight = 250,
         client = {
           event = "op-crime:openHandcuffsMenu",
-        }
+        },
+        width = 1,
+        height = 1,
+        rarity = 'common',
     },
 
     ['spray_remover'] = {
@@ -4362,7 +4626,10 @@ return {
         weight = 250,
         client = {
           event = "op-crime:useRemover",
-        }
+        },
+        width = 1,
+        height = 1,
+        rarity = 'common',
     },
 
     ['spray_can'] = {
@@ -4370,124 +4637,196 @@ return {
         weight = 1500,
         client = {
           event = "op-crime:useSpray",
-        }
+        },
+        width = 1,
+        height = 1,
+        rarity = 'common',
     },
 
     ['cocaine'] = {
         label = "Cocaine 1g",
         weight = 1,
+        width = 1,
+        height = 1,
+        rarity = 'common',
     },
 
     ['meth'] = {
         label = "Crystal Meth 1g",
         weight = 1,
+        width = 1,
+        height = 1,
+        rarity = 'common',
     },
 
     ['weed'] = {
         label = "Weed 1g",
         weight = 1,
+        width = 1,
+        height = 1,
+        rarity = 'common',
     },
     
     -- mechanic
     ["engine_oil"] = {
       label = "Engine Oil",
       weight = 1000,
+      width = 1,
+      height = 1,
+      rarity = 'common',
     },
 
     ["tyre_replacement"] = {
       label = "Tyre Replacement",
       weight = 1000,
+      width = 1,
+      height = 1,
+      rarity = 'common',
     },
 
     ["clutch_replacement"] = {
       label = "Clutch Replacement",
       weight = 1000,
+      width = 1,
+      height = 1,
+      rarity = 'common',
     },
 
     ["air_filter"] = {
       label = "Air Filter",
       weight = 100,
+      width = 1,
+      height = 1,
+      rarity = 'common',
     },
 
     ["spark_plug"] = {
       label = "Spark Plug",
       weight = 1000,
+      width = 1,
+      height = 1,
+      rarity = 'common',
     },
 
     ["brakepad_replacement"] = {
       label = "Brakepad Replacement",
       weight = 1000,
+      width = 1,
+      height = 1,
+      rarity = 'common',
     },
 
     ["suspension_parts"] = {
       label = "Suspension Parts",
       weight = 1000,
+      width = 1,
+      height = 1,
+      rarity = 'common',
     },
     -- Engine Items
     ["i4_engine"] = {
       label = "I4 Engine",
       weight = 1000,
+      width = 1,
+      height = 1,
+      rarity = 'common',
     },
 
     ["v6_engine"] = {
       label = "V6 Engine",
       weight = 1000,
+      width = 1,
+      height = 1,
+      rarity = 'common',
     },
 
     ["v8_engine"] = {
       label = "V8 Engine",
       weight = 1000,
+      width = 1,
+      height = 1,
+      rarity = 'common',
     },
 
     ["v12_engine"] = {
       label = "V12 Engine",
       weight = 1000,
+      width = 1,
+      height = 1,
+      rarity = 'common',
     },
 
     ["turbocharger"] = {
       label = "Turbocharger",
       weight = 1000,
+      width = 1,
+      height = 1,
+      rarity = 'common',
     },
     -- Electric Engines
     ["ev_motor"] = {
       label = "EV Motor",
       weight = 1000,
+      width = 1,
+      height = 1,
+      rarity = 'common',
     },
 
     ["ev_battery"] = {
       label = "EV Battery",
       weight = 1000,
+      width = 1,
+      height = 1,
+      rarity = 'common',
     },
 
     ["ev_coolant"] = {
       label = "EV Coolant",
       weight = 1000,
+      width = 1,
+      height = 1,
+      rarity = 'common',
     },
     -- Drivetrain Items
     ["awd_drivetrain"] = {
       label = "AWD Drivetrain",
       weight = 1000,
+      width = 1,
+      height = 1,
+      rarity = 'common',
     },
 
     ["rwd_drivetrain"] = {
       label = "RWD Drivetrain",
       weight = 1000,
+      width = 1,
+      height = 1,
+      rarity = 'common',
     },
 
     ["fwd_drivetrain"] = {
       label = "FWD Drivetrain",
       weight = 1000,
+      width = 1,
+      height = 1,
+      rarity = 'common',
     },
 
     -- Tuning Items
     ["slick_tyres"] = {
       label = "Slick Tyres",
       weight = 1000,
+      width = 1,
+      height = 1,
+      rarity = 'common',
     },
 
     ["semi_slick_tyres"] = {
       label = "Semi Slick Tyres",
       weight = 1000,
+      width = 1,
+      height = 1,
+      rarity = 'common',
     },
 
     ["offroad_tyres"] = {
@@ -4498,11 +4837,17 @@ return {
     ["drift_tuning_kit"] = {
       label = "Drift Tuning Kit",
       weight = 1000,
+      width = 1,
+      height = 1,
+      rarity = 'common',
     },
 
     ["ceramic_brakes"] = {
       label = "Ceramic Brakes",
       weight = 1000,
+      width = 1,
+      height = 1,
+      rarity = 'common',
     },
     -- Cosmetic Items
     ["lighting_controller"] = {
@@ -4510,7 +4855,10 @@ return {
       weight = 100,
       client = {
         event = "jg-mechanic:client:show-lighting-controller",
-      }
+      },
+      width = 1,
+      height = 1,
+      rarity = 'common',
     },
 
     ["stancing_kit"] = {
@@ -4518,37 +4866,58 @@ return {
       weight = 100,
       client = {
         event = "jg-mechanic:client:show-stancer-kit",
-      }
+      },
+      width = 1,
+      height = 1,
+      rarity = 'common',
     },
 
     ["cosmetic_part"] = {
       label = "Cosmetic Parts",
       weight = 100,
+      width = 1,
+      height = 1,
+      rarity = 'common',
     },
 
     ["respray_kit"] = {
       label = "Respray Kit",
       weight = 1000,
+      width = 1,
+      height = 1,
+      rarity = 'common',
     },
 
     ["vehicle_wheels"] = {
       label = "Vehicle Wheels Set",
       weight = 1000,
+      width = 1,
+      height = 1,
+      rarity = 'common',
     },
 
     ["tyre_smoke_kit"] = {
       label = "Tyre Smoke Kit",
       weight = 1000,
+      width = 1,
+      height = 1,
+      rarity = 'common',
     },
 
     ["bulletproof_tyres"] = {
       label = "Bulletproof Tyres",
       weight = 1000,
+      width = 1,
+      height = 1,
+      rarity = 'common',
     },
 
     ["extras_kit"] = {
       label = "Extras Kit",
       weight = 1000,
+      width = 1,
+      height = 1,
+      rarity = 'common',
     },
     -- Nitrous & Cleaning Items
     ["nitrous_bottle"] = {
@@ -4556,17 +4925,26 @@ return {
       weight = 1000,
       client = {
         event = "jg-mechanic:client:use-nitrous-bottle",
-      }
+      },
+      width = 1,
+      height = 1,
+      rarity = 'common',
     },
 
     ["empty_nitrous_bottle"] = {
       label = "Empty Nitrous Bottle",
       weight = 1000,
+      width = 1,
+      height = 1,
+      rarity = 'common',
     },
 
     ["nitrous_install_kit"] = {
       label = "Nitrous Install Kit",
       weight = 1000,
+      width = 1,
+      height = 1,
+      rarity = 'common',
     },
 
     ["cleaning_kit"] = {
@@ -4574,7 +4952,10 @@ return {
       weight = 1000,
       client = {
         event = "jg-mechanic:client:clean-vehicle",
-      }
+      },
+      width = 1,
+      height = 1,
+      rarity = 'common',
     },
 
     ["repair_kit"] = {
@@ -4582,7 +4963,10 @@ return {
       weight = 1000,
       client = {
         event = "jg-mechanic:client:repair-vehicle",
-      }
+      },
+      width = 1,
+      height = 1,
+      rarity = 'common',
     },
 
     ["duct_tape"] = {
@@ -4590,12 +4974,18 @@ return {
       weight = 1000,
       client = {
         event = "jg-mechanic:client:use-duct-tape",
-      }
+      },
+      width = 1,
+      height = 1,
+      rarity = 'common',
     },
     -- Performance Item
     ["performance_part"] = {
       label = "Performance Parts",
       weight = 1000,
+      width = 1,
+      height = 1,
+      rarity = 'common',
     },
     -- Mechanic Tablet Item
     ["mechanic_tablet"] = {
@@ -4603,12 +4993,18 @@ return {
       weight = 1000,
       client = {
         event = "jg-mechanic:client:use-tablet",
-      }
+      },
+      width = 1,
+      height = 1,
+      rarity = 'common',
     },
     -- Gearbox
     ["manual_gearbox"] = {
       label = "Manual Gearbox",
       weight = 1000,
+      width = 1,
+      height = 1,
+      rarity = 'common',
     },
 
     ['eas_device'] = {
@@ -4620,7 +5016,10 @@ return {
         description = 'Emergency Alert System broadcaster.',
         client = {
             export = 'cryptic_eas.useEAS'
-        }
+        },
+        width = 1,
+        height = 1,
+        rarity = 'common',
     },
     -- boosting stuff
     ["gg_boosting_tablet"] = {
@@ -4629,6 +5028,9 @@ return {
         stack = false,
         close = true,
         description = "Boosting What In the Heck is That!!",
+        width = 1,
+        height = 1,
+        rarity = 'common',
     },
 
     ["gg_tracker_scrambler"] = {
@@ -4637,6 +5039,9 @@ return {
         stack = false,
         close = true,
         description = "Tracker scrambler",
+        width = 1,
+        height = 1,
+        rarity = 'common',
     },
 
     ["gg_rattle_can"] = {
@@ -4645,6 +5050,9 @@ return {
         stack = true,
         close = true,
         description = "Quickly give your boost a new coat.",
+        width = 1,
+        height = 1,
+        rarity = 'common',
     },
 
     ["gg_signal_jammer"] = {
@@ -4653,6 +5061,9 @@ return {
         stack = false,
         close = true,
         description = "Block tower signals by using this item near a tower.",
+        width = 1,
+        height = 1,
+        rarity = 'common',
     },
 
     ["gg_wire_cutters"] = {
@@ -4661,6 +5072,9 @@ return {
         stack = false,
         close = true,
         description = "Cut the wires within the vehicle to stop alarms.",
+        width = 1,
+        height = 1,
+        rarity = 'common',
     },
 
     ["gg_boost_plate"] = {
@@ -4669,6 +5083,9 @@ return {
         stack = false,
         close = true,
         description = "Plate from locals vehicle.",
+        width = 1,
+        height = 1,
+        rarity = 'common',
     },
 
     ["hacking_phone"] = {
@@ -4678,13 +5095,11 @@ return {
 		close = true,
         length = 2,
         width = 2,
+        rarity = 'common',
 		description = "A phone that can be used to hack into systems.",
 		client = {
 			image = "hacking_phone.png",
 		},
-        metadata = {
-            rarity = 'rare',
-        },
 	},
 
 	["atm_hacking_device"] = {
@@ -4694,12 +5109,27 @@ return {
 		close = true,
 		length = 2,
 		width = 2,
+		rarity = 'common',
 		description = "A device that can be used to hack into ATMs.",
 		client = {
 			image = "atm_hacking_device.png",
 		},
-        metadata = {
-            rarity = 'rare',
-        },
 	},
+
+    ['PussyPleaserPills'] = {
+        label = 'Pussy Pleaser Pills',
+        weight = 1,
+        stack = true,
+        width = 1,
+        height = 1,
+        rarity = 'mythic',
+        client = {
+            status = { thirst = 200000 },
+            anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
+            prop = { model = prop_ld_flow_bottle, pos = vec3(0.03, 0.03, 0.02), rot = vec3(0.0, 0.0, -1.5) },
+            usetime = 2500,
+            cancel = true,
+            notification = 'Pleases Pussy'
+        }
+    },
 }
