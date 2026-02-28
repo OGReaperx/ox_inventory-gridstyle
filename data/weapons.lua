@@ -3,970 +3,1354 @@ return {
 		['WEAPON_BATTLERIFLE'] = {
 			label = 'Battle Rifle',
 			weight = 3300,
+			durability = 0.03,
 			width = 4,
 			height = 2,
-			durability = 0.03,
+			rarity = 'mythic',
 			ammoname = 'ammo-rifle2',
-		},
-
-		['WEAPON_SNOWLAUNCHER'] = {
-			label = 'Snowball Launcher',
-			weight = 1000,
-			width = 4,
-			height = 2,
-			durability = 0.03,
-			ammoname = 'WEAPON_SNOWBALL',
 		},
 
 		['WEAPON_TECPISTOL'] = {
 			label = 'Tactical SMG',
 			weight = 1500,
+			durability = 0.075,
 			width = 2,
 			height = 1,
-			durability = 0.075,
+			rarity = 'epic',
 			ammoname = 'ammo-9',
 		},
 
 		['WEAPON_ADVANCEDRIFLE'] = {
 			label = 'Advanced Rifle',
 			weight = 3100,
+			durability = 0.03,
 			width = 4,
 			height = 2,
-			durability = 0.03,
+			rarity = 'legendary',
 			ammoname = 'ammo-rifle',
 		},
 
 		['WEAPON_APPISTOL'] = {
 			label = 'AP Pistol',
 			weight = 1400,
+			durability = 0.1,
 			width = 2,
 			height = 1,
-			durability = 0.1,
+			rarity = 'legendary',
 			ammoname = 'ammo-9',
 		},
 
 		['WEAPON_ASSAULTRIFLE'] = {
 			label = 'Assault Rifle',
 			weight = 4500,
+			durability = 0.03,
 			width = 4,
 			height = 2,
-			durability = 0.03,
+			rarity = 'epic',
 			ammoname = 'ammo-rifle2',
-			rarity = 'legendary',
 		},
 
 		['WEAPON_ASSAULTRIFLE_MK2'] = {
 			label = 'Assault Rifle MK2',
 			weight = 2950,
+			durability = 0.03,
 			width = 4,
 			height = 2,
-			durability = 0.03,
+			rarity = 'mythic',
 			ammoname = 'ammo-rifle2',
 		},
 
 		['WEAPON_ASSAULTSHOTGUN'] = {
 			label = 'Assault Shotgun',
 			weight = 5200,
+			durability = 0.05,
 			width = 4,
 			height = 2,
-			durability = 0.05,
+			rarity = 'legendary',
 			ammoname = 'ammo-shotgun'
 		},
 
 		['WEAPON_ASSAULTSMG'] = {
 			label = 'Assault SMG',
 			weight = 2900,
+			durability = 0.05,
 			width = 3,
 			height = 2,
-			durability = 0.05,
+			rarity = 'epic',
 			ammoname = 'ammo-rifle'
 		},
 
 		['WEAPON_BALL'] = {
 			label = 'Ball',
 			weight = 149,
+			throwable = true,
 			width = 1,
 			height = 1,
-			throwable = true,
+			rarity = 'common',
 		},
 
 		['WEAPON_BAT'] = {
 			label = 'Bat',
 			weight = 1134,
-			width = 1,
-			height = 4,
 			durability = 0.1,
+			width = 1,
+			height = 3,
+			rarity = 'common',
 		},
 
 		['WEAPON_BATTLEAXE'] = {
 			label = 'Battle Axe',
 			weight = 6500,
-			width = 2,
-			height = 3,
 			durability = 0.1,
+			width = 1,
+			height = 2,
+			rarity = 'uncommon',
 		},
 
 		['WEAPON_BOTTLE'] = {
 			label = 'Bottle',
 			weight = 350,
+			durability = 0.1,
 			width = 1,
 			height = 1,
-			durability = 0.1,
+			rarity = 'common',
 		},
 
 		['WEAPON_BULLPUPRIFLE'] = {
 			label = 'Bullpup Rifle',
 			weight = 2900,
+			durability = 0.03,
 			width = 4,
 			height = 2,
-			durability = 0.03,
+			rarity = 'epic',
 			ammoname = 'ammo-rifle'
 		},
 
 		['WEAPON_BULLPUPRIFLE_MK2'] = {
 			label = 'Bullpup Rifle MK2',
 			weight = 2900,
+			durability = 0.03,
 			width = 4,
 			height = 2,
-			durability = 0.03,
+			rarity = 'mythic',
 			ammoname = 'ammo-rifle'
 		},
 
 		['WEAPON_BULLPUPSHOTGUN'] = {
 			label = 'Bullpup Shotgun',
 			weight = 3100,
-			width = 3,
-			height = 2,
 			durability = 0.2,
+			width = 4,
+			height = 2,
+			rarity = 'legendary',
 			ammoname = 'ammo-shotgun'
 		},
 
 		['WEAPON_BZGAS'] = {
 			label = 'BZ Gas',
 			weight = 600,
+			throwable = true,
 			width = 1,
 			height = 1,
-			throwable = true,
+			rarity = 'rare',
 		},
 
 		['WEAPON_CARBINERIFLE'] = {
 			label = 'Carbine Rifle',
 			weight = 3100,
+			durability = 0.03,
 			width = 4,
 			height = 2,
-			durability = 0.03,
+			rarity = 'epic',
 			ammoname = 'ammo-rifle'
 		},
 
 		['WEAPON_CARBINERIFLE_MK2'] = {
 			label = 'Carbine Rifle MK2',
 			weight = 3000,
+			durability = 0.03,
 			width = 4,
 			height = 2,
-			durability = 0.03,
+			rarity = 'mythic',
 			ammoname = 'ammo-rifle'
 		},
 
 		['WEAPON_CERAMICPISTOL'] = {
 			label = 'Ceramic Pistol',
 			weight = 800,
+			durability = 0.2,
 			width = 2,
 			height = 1,
-			durability = 0.2,
+			rarity = 'rare',
 			ammoname = 'ammo-9'
 		},
 
 		['WEAPON_PISTOLXM3'] = {
 			label = 'WM 29 Pistol',
 			weight = 969,
+			durability = 0.2,
 			width = 2,
 			height = 1,
-			durability = 0.2,
+			rarity = 'uncommon',
 			ammoname = 'ammo-9'
 		},
 
 		['WEAPON_COMBATMG'] = {
 			label = 'Combat MG',
 			weight = 7500,
-			width = 5,
-			height = 2,
 			durability = 0.02,
+			width = 4,
+			height = 2,
+			rarity = 'mythic',
 			ammoname = 'ammo-rifle'
 		},
 
 		['WEAPON_COMBATMG_MK2'] = {
 			label = 'Combat MG MK2',
 			weight = 8000,
-			width = 5,
-			height = 2,
 			durability = 0.02,
+			width = 4,
+			height = 2,
+			rarity = 'mythic',
 			ammoname = 'ammo-rifle2'
 		},
 
 		['WEAPON_COMBATPDW'] = {
 			label = 'Combat PDW',
 			weight = 2300,
-			width = 3,
-			height = 2,
 			durability = 0.1,
+			width = 2,
+			height = 1,
+			rarity = 'epic',
 			ammoname = 'ammo-9'
 		},
 
 		['WEAPON_COMBATPISTOL'] = {
 			label = 'Combat Pistol',
 			weight = 785,
+			durability = 0.2,
 			width = 2,
 			height = 1,
-			durability = 0.2,
+			rarity = 'rare',
 			ammoname = 'ammo-9'
 		},
 
 		['WEAPON_COMBATSHOTGUN'] = {
 			label = 'Combat Shotgun',
 			weight = 4400,
+			durability = 0.2,
 			width = 4,
 			height = 2,
-			durability = 0.2,
+			rarity = 'legendary',
 			ammoname = 'ammo-shotgun'
 		},
 
 		['WEAPON_COMPACTLAUNCHER'] = {
 			label = 'Compact Grenade Launcher',
 			weight = 2500,
-			width = 3,
-			height = 2,
 			durability = 0.05,
+			width = 4,
+			height = 2,
+			rarity = 'mythic',
 			ammoname = 'ammo-grenade'
 		},
 
 		['WEAPON_COMPACTRIFLE'] = {
 			label = 'Compact Rifle',
 			weight = 3600,
-			width = 3,
-			height = 2,
 			durability = 0.05,
+			width = 4,
+			height = 2,
+			rarity = 'epic',
 			ammoname = 'ammo-rifle2'
 		},
 
 		['WEAPON_CROWBAR'] = {
 			label = 'Crowbar',
 			weight = 2500,
+			durability = 0.1,
 			width = 1,
 			height = 3,
-			durability = 0.1,
+			rarity = 'common',
 		},
 
 		['WEAPON_DAGGER'] = {
 			label = 'Dagger',
 			weight = 800,
-			width = 1,
-			height = 2,
 			durability = 0.1,
+			width = 1,
+			height = 1,
+			rarity = 'uncommon',
 		},
 
 		['WEAPON_DBSHOTGUN'] = {
 			label = 'Double Barrel Shotgun',
 			weight = 3175,
-			width = 3,
-			height = 2,
 			durability = 0.4,
+			width = 3,
+			height = 1,
+			rarity = 'epic',
 			ammoname = 'ammo-shotgun'
 		},
 
 		['WEAPON_DOUBLEACTION'] = {
 			label = 'Double Action Revolver',
 			weight = 940,
+			durability = 0.2,
 			width = 2,
 			height = 1,
-			durability = 0.2,
+			rarity = 'rare',
 			ammoname = 'ammo-38'
-		},
-
-		['WEAPON_EMPLAUNCHER'] = {
-			label = 'Compact EMP Launcher',
-			weight = 2750,
-			width = 3,
-			height = 2,
-			durability = 0.2,
-			ammoname = 'ammo-emp'
 		},
 
 		['WEAPON_FIREEXTINGUISHER'] = {
 			label = 'Fire Extinguisher',
 			weight = 8616,
-			width = 2,
+            durability = 0.006,
+			width = 1,
 			height = 3,
-            durability = 0.006
-		},
-
-		['WEAPON_FIREWORK'] = {
-			label = 'Firework Launcher',
-			weight = 1000,
-			width = 4,
-			height = 2,
-			durability = 0.5,
-			ammoname = 'ammo-firework'
+			rarity = 'common',
 		},
 
 		['WEAPON_FLARE'] = {
 			label = 'Flare',
 			weight = 250,
+			throwable = true,
 			width = 1,
 			height = 1,
-			throwable = true,
+			rarity = 'rare',
 		},
 
 		['WEAPON_FLAREGUN'] = {
 			label = 'Flare Gun',
 			weight = 1000,
+			durability = 0.5,
 			width = 2,
 			height = 1,
-			durability = 0.5,
+			rarity = 'epic',
 			ammoname = 'ammo-flare'
 		},
 
 		['WEAPON_FLASHLIGHT'] = {
 			label = 'Flashlight',
 			weight = 125,
-			width = 1,
-			height = 2,
 			durability = 0.1,
+			width = 2,
+			height = 1,
+			rarity = 'common',
 		},
 
 		['WEAPON_GOLFCLUB'] = {
 			label = 'Golf Club',
 			weight = 330,
-			width = 1,
-			height = 4,
 			durability = 0.1,
+			width = 1,
+			height = 3,
+			rarity = 'common',
 		},
 
 		['WEAPON_GRENADE'] = {
 			label = 'Grenade',
 			weight = 400,
+			throwable = true,
 			width = 1,
 			height = 1,
-			throwable = true,
-		},
-
-		['WEAPON_GRENADELAUNCHER'] = {
-			label = 'Grenade Launcher',
-			weight = 6500,
-			width = 5,
-			height = 2,
-			durability = 0.05,
-			ammoname = 'ammo-grenade'
-		},
-
-		['WEAPON_GUSENBERG'] = {
-			label = 'Gusenberg',
-			weight = 4900,
-			width = 4,
-			height = 2,
-			durability = 0.04,
-			ammoname = 'ammo-45'
+			rarity = 'legendary',
 		},
 
 		['WEAPON_HAMMER'] = {
 			label = 'Hammer',
 			weight = 1200,
-			width = 1,
-			height = 2,
 			durability = 0.1,
+			width = 1,
+			height = 3,
+			rarity = 'uncommon',
 		},
 
 		['WEAPON_HATCHET'] = {
 			label = 'Hatchet',
 			weight = 1000,
+			durability = 0.1,
 			width = 1,
 			height = 2,
-			durability = 0.1,
+			rarity = 'common',
 		},
 
 		['WEAPON_HEAVYRIFLE'] = {
 			label = 'Heavy Rifle',
 			weight = 3300,
+			durability = 0.2,
 			width = 4,
 			height = 2,
-			durability = 0.2,
+			rarity = 'legendary',
 			ammoname = 'ammo-rifle'
 		},
 
 		['WEAPON_HAZARDCAN'] = {
 			label = 'Hazard Can',
 			weight = 12000,
-			width = 2,
-			height = 3,
+			width = 1,
+			height = 1,
+			rarity = 'uncommon',
 		},
 
 		['WEAPON_METALDETECTOR'] = {
 			label = 'Metal Detector',
 			weight = 1200,
-			width = 2,
-			height = 3,
-		},
-
-		['WEAPON_HOMINGLAUNCHER'] = {
-			label = 'Homing Launcher',
-			weight = 10000,
-			width = 5,
-			height = 3,
-			durability = 0.6,
-			ammoname = 'ammo-rocket'
+			width = 1,
+			height = 2,
+			rarity = 'uncommon',
 		},
 
 		['WEAPON_FERTILIZERCAN'] = {
 			label = 'Fertilizer Can',
 			weight = 12000,
-			width = 2,
-			height = 3,
+			width = 1,
+			height = 1,
+			rarity = 'uncommon',
 		},
 
 		['WEAPON_HEAVYPISTOL'] = {
 			label = 'Heavy Pistol',
 			weight = 1100,
+			durability = 0.2,
 			width = 2,
 			height = 1,
-			durability = 0.2,
+			rarity = 'rare',
 			ammoname = 'ammo-45'
 		},
 
 		['WEAPON_HEAVYSHOTGUN'] = {
 			label = 'Heavy Shotgun',
 			weight = 3600,
+			durability = 0.1,
 			width = 4,
 			height = 2,
-			durability = 0.1,
+			rarity = 'legendary',
 			ammoname = 'ammo-shotgun'
 		},
 
 		['WEAPON_HEAVYSNIPER'] = {
 			label = 'Heavy Sniper',
 			weight = 12700,
+			durability = 0.5,
 			width = 6,
 			height = 2,
-			durability = 0.5,
+			rarity = 'mythic',
 			ammoname = 'ammo-heavysniper'
 		},
 
 		['WEAPON_HEAVYSNIPER_MK2'] = {
 			label = 'Heavy Sniper MK2',
 			weight = 14000,
+			durability = 0.5,
 			width = 6,
 			height = 2,
-			durability = 0.5,
+			rarity = 'mythic',
 			ammoname = 'ammo-heavysniper'
 		},
 
 		['WEAPON_KNIFE'] = {
 			label = 'Knife',
 			weight = 300,
-			width = 1,
-			height = 2,
 			durability = 0.1,
+			width = 1,
+			height = 1,
+			rarity = 'common',
 		},
 
 		['WEAPON_KNUCKLE'] = {
 			label = 'Knuckle Dusters',
 			weight = 300,
+			durability = 0.1,
 			width = 1,
 			height = 1,
-			durability = 0.1,
+			rarity = 'common',
 		},
 
 		['WEAPON_MACHETE'] = {
 			label = 'Machete',
 			weight = 1000,
+			durability = 0.1,
 			width = 1,
 			height = 3,
-			durability = 0.1,
+			rarity = 'uncommon',
 		},
 
 		['WEAPON_MACHINEPISTOL'] = {
 			label = 'Machine Pistol',
 			weight = 1400,
+			durability = 0.05,
 			width = 2,
 			height = 1,
-			durability = 0.05,
+			rarity = 'rare',
 			ammoname = 'ammo-9'
 		},
 
 		['WEAPON_MARKSMANPISTOL'] = {
 			label = 'Marksman Pistol',
 			weight = 1588,
+			durability = 0.5,
 			width = 2,
 			height = 1,
-			durability = 0.5,
+			rarity = 'epic',
 			ammoname = 'ammo-22'
 		},
 
 		['WEAPON_MARKSMANRIFLE'] = {
 			label = 'Marksman Rifle',
 			weight = 7500,
-			width = 5,
-			height = 2,
 			durability = 0.4,
+			width = 4,
+			height = 2,
+			rarity = 'legendary',
 			ammoname = 'ammo-sniper'
 		},
 
 		['WEAPON_MARKSMANRIFLE_MK2'] = {
 			label = 'Marksman Rifle MK2',
 			weight = 4000,
-			width = 5,
-			height = 2,
 			durability = 0.4,
+			width = 4,
+			height = 2,
+			rarity = 'mythic',
 			ammoname = 'ammo-sniper'
 		},
 
 		['WEAPON_MG'] = {
 			label = 'Machine Gun',
 			weight = 9000,
-			width = 5,
-			height = 2,
 			durability = 0.02,
-			ammoname = 'ammo-rifle2'
-		},
-
-		['WEAPON_MINIGUN'] = {
-			label = 'Minigun',
-			weight = 38500,
-			width = 5,
-			height = 3,
-			durability = 0.1,
+			width = 4,
+			height = 2,
+			rarity = 'mythic',
 			ammoname = 'ammo-rifle2'
 		},
 
 		['WEAPON_MICROSMG'] = {
 			label = 'Micro SMG',
 			weight = 3000,
-			width = 2,
-			height = 2,
 			durability = 0.1,
+			width = 2,
+			height = 1,
+			rarity = 'epic',
 			ammoname = 'ammo-45'
 		},
 
 		['WEAPON_MILITARYRIFLE'] = {
 			label = 'Military Rifle',
 			weight = 3600,
+			durability = 0.03,
 			width = 4,
 			height = 2,
-			durability = 0.03,
+			rarity = 'legendary',
 			ammoname = 'ammo-rifle'
 		},
 
 		['WEAPON_MINISMG'] = {
 			label = 'Mini SMG',
 			weight = 1270,
+			durability = 0.05,
 			width = 2,
 			height = 1,
-			durability = 0.05,
+			rarity = 'rare',
 			ammoname = 'ammo-9'
 		},
 
 		['WEAPON_MOLOTOV'] = {
 			label = 'Molotov',
 			weight = 1800,
+			throwable = true,
 			width = 1,
 			height = 1,
-			throwable = true,
+			rarity = 'legendary',
 		},
 
 		['WEAPON_MUSKET'] = {
 			label = 'Musket',
 			weight = 4500,
-			width = 5,
-			height = 2,
 			durability = 0.5,
+			width = 4,
+			height = 2,
+			rarity = 'mythic',
 			ammoname = 'ammo-musket'
 		},
 
 		['WEAPON_NAVYREVOLVER'] = {
 			label = 'Navy Revolver',
 			weight = 4000,
+			durability = 0.2,
 			width = 2,
 			height = 1,
-			durability = 0.2,
+			rarity = 'rare',
 			ammoname = 'ammo-44'
 		},
 
 		['WEAPON_NIGHTSTICK'] = {
 			label = 'Nightstick',
 			weight = 1000,
-			width = 1,
-			height = 3,
 			durability = 0.1,
+			width = 1,
+			height = 2,
+			rarity = 'rare',
 		},
 
 		['WEAPON_PETROLCAN'] = {
 			label = 'Jerry Can',
 			weight = 4000,
-			width = 2,
-			height = 3,
-		},
-
-		['WEAPON_GADGETPISTOL'] = {
-			label = 'Perico Pistol',
-			weight = 1750,
-			width = 2,
+			width = 1,
 			height = 1,
-			durability = 0.1,
-			ammoname = 'ammo-9'
+			rarity = 'uncommon',
 		},
 
 		['WEAPON_PIPEBOMB'] = {
 			label = 'Pipe Bomb',
 			weight = 1800,
+			throwable = true,
 			width = 1,
 			height = 1,
-			throwable = true,
+			rarity = 'legendary',
 		},
 
 		['WEAPON_PISTOL'] = {
 			label = 'Pistol',
 			weight = 1130,
+			durability = 0.1,
 			width = 2,
 			height = 1,
-			durability = 0.1,
+			rarity = 'common',
 			ammoname = 'ammo-9',
 		},
 
 		['WEAPON_PISTOL50'] = {
 			label = 'Pistol .50',
 			weight = 2000,
+			durability = 0.1,
 			width = 2,
 			height = 1,
-			durability = 0.1,
+			rarity = 'rare',
 			ammoname = 'ammo-50'
 		},
 
 		['WEAPON_PISTOL_MK2'] = {
 			label = 'Pistol MK2',
 			weight = 1000,
+			durability = 0.5,
 			width = 2,
 			height = 1,
-			durability = 0.5,
+			rarity = 'epic',
 			ammoname = 'ammo-9'
 		},
 
 		['WEAPON_POOLCUE'] = {
 			label = 'Pool Cue',
 			weight = 146,
-			width = 1,
-			height = 4,
 			durability = 0.1,
+			width = 1,
+			height = 3,
+			rarity = 'common',
 		},
 
 		['WEAPON_CANDYCANE'] = {
 			label = 'Candy Cane',
 			weight = 85,
+			durability = 0.1,
 			width = 1,
 			height = 3,
-			durability = 0.1,
-		},
-
-		['WEAPON_PROXMINE'] = {
-			label = 'Proximity Mine',
-			weight = 2500,
-			width = 1,
-			height = 1,
-			throwable = true,
+			rarity = 'rare',
 		},
 
 		['WEAPON_PUMPSHOTGUN'] = {
 			label = 'Pump Shotgun',
 			weight = 3400,
+			durability = 0.1,
 			width = 4,
 			height = 2,
-			durability = 0.1,
+			rarity = 'legendary',
 			ammoname = 'ammo-shotgun'
 		},
 
 		['WEAPON_PUMPSHOTGUN_MK2'] = {
 			label = 'Pump Shotgun MK2',
 			weight = 3200,
-			width = 4,
-			height = 2,
 			durability = 0.1,
-			ammoname = 'ammo-shotgun'
-		},
-
-		['WEAPON_RAILGUN'] = {
-			label = 'Railgun',
-			weight = 3570,
-			width = 5,
-			height = 2,
-			durability = 0.5,
-			ammoname = 'ammo-railgun'
-		},
-
-		['WEAPON_RAILGUNXM3'] = {
-			label = 'Railgun XM3',
-			weight = 3570,
-			width = 5,
-			height = 2,
-			durability = 0.5,
-			ammoname = 'ammo-railgun'
-		},
-
-		['WEAPON_RAYCARBINE'] = {
-			label = 'Unholy Hellbringer',
-			weight = 3620,
 			width = 4,
 			height = 2,
-			durability = 0.2,
-			ammoname = 'ammo-laser'
-		},
-
-		['WEAPON_RAYPISTOL'] = {
-			label = 'Up-n-Atomizer',
-			weight = 1540,
-			width = 2,
-			height = 1,
-			durability = 0.5
+			rarity = 'mythic',
+			ammoname = 'ammo-shotgun'
 		},
 
 		['WEAPON_REVOLVER'] = {
 			label = 'Revolver',
 			weight = 2260,
+			durability = 0.1,
 			width = 2,
 			height = 1,
-			durability = 0.1,
+			rarity = 'rare',
 			ammoname = 'ammo-44'
 		},
 
 		['WEAPON_REVOLVER_MK2'] = {
 			label = 'Revolver MK2',
 			weight = 2600,
+			durability = 0.1,
 			width = 2,
 			height = 1,
-			durability = 0.1,
+			rarity = 'epic',
 			ammoname = 'ammo-44'
-		},
-
-		['WEAPON_RPG'] = {
-			label = 'RPG',
-			weight = 5000,
-			width = 5,
-			height = 2,
-			durability = 0.3,
-			ammoname = 'ammo-rocket'
 		},
 
 		['WEAPON_SAWNOFFSHOTGUN'] = {
 			label = 'Sawn Off Shotgun',
 			weight = 2380,
-			width = 2,
-			height = 2,
 			durability = 0.1,
+			width = 2,
+			height = 1,
+			rarity = 'epic',
 			ammoname = 'ammo-shotgun'
 		},
 
 		['WEAPON_SMG'] = {
 			label = 'SMG',
 			weight = 3084,
+			durability = 0.8,
 			width = 3,
 			height = 2,
-			durability = 0.8,
+			rarity = 'rare',
 			ammoname = 'ammo-9'
 		},
 
 		['WEAPON_SMG_MK2'] = {
 			label = 'SMG Mk2',
 			weight = 2700,
+			durability = 0.05,
 			width = 3,
 			height = 2,
-			durability = 0.05,
+			rarity = 'epic',
 			ammoname = 'ammo-9'
 		},
 
 		['WEAPON_SMOKEGRENADE'] = {
 			label = 'Smoke Grenade',
 			weight = 600,
+			throwable = true,
 			width = 1,
 			height = 1,
-			throwable = true,
+			rarity = 'legendary',
 		},
 
 		['WEAPON_SNIPERRIFLE'] = {
 			label = 'Sniper Rifle',
 			weight = 5000,
-			width = 5,
-			height = 2,
 			durability = 0.5,
+			width = 4,
+			height = 2,
+			rarity = 'legendary',
 			ammoname = 'ammo-sniper'
 		},
 
 		['WEAPON_SNOWBALL'] = {
 			label = 'Snow Ball',
 			weight = 5,
+			throwable = true,
 			width = 1,
 			height = 1,
-			throwable = true,
+			rarity = 'common',
 		},
 
 		['WEAPON_SNSPISTOL'] = {
 			label = 'SNS Pistol',
 			weight = 465,
-			width = 1,
-			height = 1,
 			durability = 0.1,
+			width = 2,
+			height = 1,
+			rarity = 'rare',
 			ammoname = 'ammo-45'
 		},
 
 		['WEAPON_SNSPISTOL_MK2'] = {
 			label = 'SNS Pistol MK2',
 			weight = 465,
-			width = 1,
-			height = 1,
 			durability = 0.1,
+			width = 2,
+			height = 1,
+			rarity = 'epic',
 			ammoname = 'ammo-45'
 		},
 
 		['WEAPON_SPECIALCARBINE'] = {
 			label = 'Special Carbine',
 			weight = 3000,
+			durability = 0.03,
 			width = 4,
 			height = 2,
-			durability = 0.03,
+			rarity = 'epic',
 			ammoname = 'ammo-rifle'
 		},
 
 		['WEAPON_SPECIALCARBINE_MK2'] = {
 			label = 'Special Carbine MK2',
 			weight = 3370,
+			durability = 0.03,
 			width = 4,
 			height = 2,
-			durability = 0.03,
+			rarity = 'mythic',
 			ammoname = 'ammo-rifle'
 		},
 
 		['WEAPON_STICKYBOMB'] = {
 			label = 'Sticky Bomb',
 			weight = 1000,
+			throwable = true,
 			width = 1,
 			height = 1,
-			throwable = true,
+			rarity = 'legendary',
 		},
 
 		['WEAPON_STONE_HATCHET'] = {
 			label = 'Stone Hatchet',
 			weight = 800,
+			durability = 0.1,
 			width = 1,
 			height = 2,
-			durability = 0.1,
+			rarity = 'uncommon',
 		},
 
 		['WEAPON_STUNGUN'] = {
 			label = 'Tazer',
 			weight = 227,
-			width = 2,
-			height = 1,
 			durability = 0.1,
+			width = 1,
+			height = 1,
+			rarity = 'rare',
 		},
 
 		['WEAPON_AUTOSHOTGUN'] = {
 			label = 'Sweeper Shotgun',
 			weight = 4400,
-			width = 3,
-			height = 2,
 			durability = 0.05,
+			width = 4,
+			height = 2,
+			rarity = 'legendary',
 			ammoname = 'ammo-shotgun'
 		},
 
 		['WEAPON_SWITCHBLADE'] = {
 			label = 'Switchblade',
 			weight = 300,
-			width = 1,
-			height = 1,
 			durability = 0.1,
 			anim = { 'anim@melee@switchblade@holster', 'unholster', 200, 'anim@melee@switchblade@holster', 'holster', 600 },
+			width = 1,
+			height = 1,
+			rarity = 'uncommon',
 		},
 
 		['WEAPON_VINTAGEPISTOL'] = {
 			label = 'Vintage Pistol',
 			weight = 700,
+			durability = 0.1,
 			width = 2,
 			height = 1,
-			durability = 0.1,
+			rarity = 'rare',
 			ammoname = 'ammo-9'
 		},
+		['WEAPON_TITAN19X'] = {
+            label = 'T19X XL',
+            weight = 2800,
+            durability = 0.1,
+			width = 2,
+			height = 1,
+			rarity = 'rare',
+            ammoname = 'ammo-9'
+        },
 
-		['WEAPON_RAYMINIGUN'] = {
-			label = 'Widowmaker',
-			weight = 7000,
-			width = 5,
-			height = 3,
-			durability = 0.1,
-			ammoname = 'ammo-laser'
-		},
+		['WEAPON_TITAN19'] = {
+            label = 'TITAN 19',
+            weight = 2500,
+            durability = 0.1,
+			width = 2,
+			height = 1,
+			rarity = 'rare',
+            ammoname = 'ammo-9'
+        },
+
+		['WEAPON_TITAN40'] = {
+            label = 'TITAN 40',
+            weight = 2500,
+            durability = 0.1,
+			width = 2,
+			height = 1,
+			rarity = 'rare',
+            ammoname = 'ammo-9'
+        },
+
+		['WEAPON_TITAN40S'] = {
+            label = 'TITAN 40 SWITCH',
+            weight = 2500,
+            durability = 0.1,
+			width = 2,
+			height = 1,
+			rarity = 'rare',
+            ammoname = 'ammo-9'
+        },
+
+		['WEAPON_DDM4V5'] = {
+            label = 'DDM4V5',
+            weight = 6400,
+            durability = 0.1,
+			width = 2,
+			height = 1,
+			rarity = 'rare',
+            ammoname = 'ammo-rifle'
+        },
+
+		['WEAPON_MMX'] = {
+            label = 'MATRIX MX',
+            weight = 6600,
+            durability = 0.1,
+			width = 2,
+			height = 1,
+			rarity = 'rare',
+            ammoname = 'ammo-9'
+        },
+
+		['WEAPON_PP614'] = {
+            label = 'PATROL P614',
+            weight = 2500,
+            durability = 0.1,
+			width = 2,
+			height = 1,
+			rarity = 'rare',
+            ammoname = 'ammo-9'
+        },
+
+		['WEAPON_SAPS'] = {
+            label = 'STORM APS',
+            weight = 2500,
+            durability = 0.1,
+			width = 2,
+			height = 1,
+			rarity = 'rare',
+            ammoname = 'ammo-9'
+        },
+
+		['WEAPON_WPKX'] = {
+            label = 'WOLF PKX',
+            weight = 2500,
+            durability = 0.1,
+			width = 2,
+			height = 1,
+			rarity = 'rare',
+            ammoname = 'ammo-22'
+        },
+
+		['WEAPON_PITVIPER'] = {
+            label = 'JW4 PIT VIPER',
+            weight = 2500,
+            durability = 0.1,
+			width = 2,
+			height = 1,
+			rarity = 'rare',
+            ammoname = 'ammo-9'
+        },
+
+		['WEAPON_BARP'] = {
+            label = 'BANSHEE ARP-9',
+            weight = 4500,
+            durability = 0.1,
+			width = 2,
+			height = 1,
+			rarity = 'rare',
+            ammoname = 'ammo-9'
+        },
+
+		['WEAPON_HRDP'] = {
+            label = 'HUNTER RDP',
+            weight = 2400,
+            durability = 0.1,
+			width = 2,
+			height = 1,
+			rarity = 'rare',
+            ammoname = 'ammo-9'
+        },
+
+		['WEAPON_WLOX15'] = {
+            label = 'WLOX 15',
+            weight = 6000,
+            durability = 0.1,
+			width = 2,
+			height = 1,
+			rarity = 'rare',
+            ammoname = 'ammo-rifle'
+        },
+
+		['WEAPON_PLR16'] = {
+            label = 'PHANTOM LR16',
+            weight = 3400,
+            durability = 0.1,
+			width = 2,
+			height = 1,
+			rarity = 'rare',
+            ammoname = 'ammo-rifle'
+        },
+
+		['WEAPON_XMK9'] = {
+            label = 'XTREME MK9',
+            weight = 2800,
+            durability = 0.1,
+			width = 2,
+			height = 1,
+			rarity = 'rare',
+            ammoname = 'ammo-45'
+        },
+
+		['WEAPON_WPSX'] = {
+            label = 'WOLF PSX',
+            weight = 2400,
+            durability = 0.1,
+			width = 2,
+			height = 1,
+			rarity = 'rare',
+            ammoname = 'ammo-9'
+        },
+
+		['WEAPON_XDME'] = {
+            label = 'XDM ELITE',
+            weight = 1800,
+            durability = 0.1,
+			width = 2,
+			height = 1,
+			rarity = 'rare',
+            ammoname = 'ammo-9'
+        },
+
+		['WEAPON_FF15'] = {
+            label = 'FALCON F15 PISTOL',
+            weight = 4200,
+            durability = 0.1,
+			width = 2,
+			height = 1,
+			rarity = 'rare',
+            ammoname = 'ammo-rifle'
+        },
+
+		['WEAPON_TITAN17S'] = {
+            label = 'TITAN 17 SWITCH',
+            weight = 2300,
+            durability = 0.1,
+			width = 2,
+			height = 1,
+			rarity = 'rare',
+            ammoname = 'ammo-9'
+        },
+
+		['WEAPON_TITAN18C'] = {
+            label = 'TITAN 18C',
+            weight = 2500,
+            durability = 0.1,
+			width = 2,
+			height = 1,
+			rarity = 'rare',
+            ammoname = 'ammo-9'
+        },
+
+		['WEAPON_TITAN19S'] = {
+            label = 'TITAN 19 SWITCH',
+            weight = 2300,
+            durability = 0.1,
+			width = 2,
+			height = 1,
+			rarity = 'rare',
+            ammoname = 'ammo-9'
+        },
+
+		['WEAPON_ARPISTOL'] = {
+            label = 'TATIC ARP 9MM',
+            weight = 5500,
+            durability = 0.1,
+			width = 2,
+			height = 1,
+			rarity = 'rare',
+            ammoname = 'ammo-9'
+        },
+
+		['WEAPON_TITAN26S'] = {
+            label = 'TITAN 26 SWITCH',
+            weight = 2500,
+            durability = 0.1,
+			width = 2,
+			height = 1,
+			rarity = 'rare',
+            ammoname = 'ammo-9'
+        },
+
+		['WEAPON_GRENADES'] = {
+            label = 'GRENADE SNIPER',
+            weight = 15000,
+            durability = 0.1,
+			width = 1,
+			height = 1,
+			rarity = 'legendary',
+            ammoname = 'ammo-grenade'
+        },
+
+		['WEAPON_M32S'] = {
+            label = 'M32 SMOKE GL',
+            weight = 8000,
+            durability = 0.1,
+			width = 1,
+			height = 1,
+			rarity = 'legendary',
+            ammoname = 'ammo-smokegrenade'
+        },
+
+		['WEAPON_MDRAGON'] = {
+            label = 'MICRO DRAGON',
+            weight = 5600,
+            durability = 0.1,
+			width = 2,
+			height = 1,
+			rarity = 'rare',
+            ammoname = 'ammo-rifle2'
+        },
+
+		['WEAPON_RR67'] = {
+            label = 'RANGER R67',
+            weight = 2200,
+            durability = 0.1,
+			width = 2,
+			height = 1,
+			rarity = 'rare',
+            ammoname = 'ammo-9'
+        },
+
+		['WEAPON_MK18'] = {
+            label = 'MK18 MOD 1',
+            weight = 5200,
+            durability = 0.1,
+			width = 2,
+			height = 1,
+			rarity = 'rare',
+            ammoname = 'ammo-rifle'
+        },
+
+		['WEAPON_G680'] = {
+            label = 'GEUYBERG G680',
+            weight = 6200,
+            durability = 0.1,
+			width = 2,
+			height = 1,
+			rarity = 'rare',
+            ammoname = 'ammo-shotgun'
+        },
+
+		['WEAPON_ZIPTIE'] = {
+            label = 'ZIP TIE M4A1',
+            weight = 8500,
+            durability = 0.1,
+			width = 1,
+			height = 1,
+			rarity = 'rare',
+            ammoname = 'ammo-rifle'
+        },
 
 		['WEAPON_WRENCH'] = {
 			label = 'Wrench',
 			weight = 2500,
+			durability = 0.1,
 			width = 1,
 			height = 2,
-			durability = 0.1,
+			rarity = 'rare',
 		},
 
 		['WEAPON_PRECISIONRIFLE'] = {
 			label = 'Precision Rifle',
 			weight = 4800,
-			width = 5,
-			height = 2,
 			durability = 0.4,
+			width = 6,
+			height = 2,
+			rarity = 'mythic',
 			ammoname = 'ammo-sniper'
 		},
 
 		['WEAPON_TACTICALRIFLE'] = {
 			label = 'Tactical Rifle',
 			weight = 3400,
+			durability = 0.03,
 			width = 4,
 			height = 2,
-			durability = 0.03,
+			rarity = 'legendary',
 			ammoname = 'ammo-rifle'
 		},
 
 		['WEAPON_TEARGAS'] = {
 			label = 'Tear Gas',
 			weight = 600,
+			throwable = true,
 			width = 1,
 			height = 1,
-			throwable = true,
+			rarity = 'rare',
 		},
-	},
 
-	ComponentSizeModifiers = {
-		muzzle = { 1, 0 },
-		barrel = { 1, 0 },
-		sight = { 0, 1 },
-		magazine = { 0, 1 },
-		grip = { 0, 0 },
-		flashlight = { 0, 0 },
-		skin = { 0, 0 },
+		['WEAPON_FMICRODRAGON'] = {
+            label = 'PINK MICRO DRAGON',
+            weight = 5000,
+            durability = 0.1,
+			width = 2,
+			height = 1,
+			rarity = 'rare',
+            ammoname = 'ammo-rifle'
+        },
+
+		['WEAPON_PSTRIKEH'] = {
+            label = 'PINK STRIKER-H',
+            weight = 4500,
+            durability = 0.1,
+			width = 2,
+			height = 1,
+			rarity = 'rare',
+            ammoname = 'ammo-rifle2'
+        },
+
+		['WEAPON_PSPIKE'] = {
+            label = 'PINK SPIKE',
+            weight = 5200,
+            durability = 0.1,
+			width = 2,
+			height = 1,
+			rarity = 'rare',
+            ammoname = 'ammo-shotgun'
+        },
+
+		['WEAPON_PH4'] = {
+            label = 'PINK H4 SANDSM',
+            weight = 5200,
+            durability = 0.1,
+			width = 2,
+			height = 1,
+			rarity = 'rare',
+            ammoname = 'ammo-rifle'
+        },
+
+		['WEAPON_PT39'] = {
+            label = 'PINK T39',
+            weight = 3400,
+            durability = 0.1,
+			width = 2,
+			height = 1,
+			rarity = 'rare',
+            ammoname = 'ammo-9'
+        },
+
+		['WEAPON_P1911KT'] = {
+            label = 'PINK 1911 KT',
+            weight = 2400,
+            durability = 0.1,
+			width = 2,
+			height = 1,
+			rarity = 'rare',
+            ammoname = 'ammo-45'
+        },
+
+		['WEAPON_PT19'] = {
+            label = 'PINK TITAN 19',
+            weight = 2500,
+            durability = 0.1,
+			width = 2,
+			height = 1,
+			rarity = 'rare',
+            ammoname = 'ammo-9'
+        },
+
+		['WEAPON_PPH120'] = {
+            label = 'PINK PHANTOM 120',
+            weight = 4500,
+            durability = 0.1,
+			width = 2,
+			height = 1,
+			rarity = 'rare',
+            ammoname = 'ammo-9'
+        },
+
+		['WEAPON_PCM4A1'] = {
+            label = 'PINK COBRA M4A1',
+            weight = 5500,
+            durability = 0.1,
+			width = 4,
+			height = 2,
+			rarity = 'rare',
+            ammoname = 'ammo-rifle'
+        },
+
+		['WEAPON_PMK40H1'] = {
+            label = 'PINK MK40 H1',
+            weight = 5500,
+            durability = 0.1,
+			width = 4,
+			height = 2,
+			rarity = 'rare',
+            ammoname = 'ammo-rifle'
+        },
+
+		['WEAPON_PXS9'] = {
+            label = 'PINK XTREME S9',
+            weight = 1500,
+            durability = 0.1,
+			width = 2,
+			height = 1,
+			rarity = 'rare',
+            ammoname = 'ammo-9'
+        },
+
+		['WEAPON_PT17'] = {
+            label = 'PINK TITAN 17',
+            weight = 2500,
+            durability = 0.1,
+			width = 2,
+			height = 1,
+			rarity = 'rare',
+            ammoname = 'ammo-9'
+        },
+
+		['WEAPON_PMK14'] = {
+            label = 'PINK MK14',
+            weight = 7500,
+            durability = 0.1,
+			width = 2,
+			height = 1,
+			rarity = 'rare',
+            ammoname = 'ammo-rifle2'
+        },
+
+		['WEAPON_PHW45'] = {
+            label = 'PINK HAWK 45',
+            weight = 2000,
+            durability = 0.1,
+			width = 2,
+			height = 1,
+			rarity = 'rare',
+            ammoname = 'ammo-45'
+        },
+		
+		['WEAPON_PPH350'] = {
+            label = 'PINK 350 PSL',
+            weight = 2000,
+            durability = 0.1,
+			width = 2,
+			height = 1,
+			rarity = 'rare',
+            ammoname = 'ammo-45'
+        },
 	},
 
 	Components = {
 		['at_flashlight'] = {
 			label = 'Tactical Flashlight',
 			weight = 120,
+			type = 'flashlight',
 			width = 1,
 			height = 1,
-			type = 'flashlight',
-			sizeModifier = {0, 0},
-			compatibleWeapons = {
-				'WEAPON_PISTOL', 'WEAPON_PISTOL_MK2', 'WEAPON_COMBATPISTOL', 'WEAPON_APPISTOL',
-				'WEAPON_PISTOL50', 'WEAPON_SNSPISTOL', 'WEAPON_SNSPISTOL_MK2', 'WEAPON_HEAVYPISTOL',
-				'WEAPON_VINTAGEPISTOL', 'WEAPON_CERAMICPISTOL', 'WEAPON_PISTOLXM3',
-				'WEAPON_MICROSMG', 'WEAPON_SMG', 'WEAPON_SMG_MK2', 'WEAPON_ASSAULTSMG',
-				'WEAPON_COMBATPDW', 'WEAPON_MACHINEPISTOL', 'WEAPON_MINISMG',
-				'WEAPON_ASSAULTRIFLE', 'WEAPON_ASSAULTRIFLE_MK2', 'WEAPON_CARBINERIFLE',
-				'WEAPON_CARBINERIFLE_MK2', 'WEAPON_ADVANCEDRIFLE', 'WEAPON_SPECIALCARBINE',
-				'WEAPON_SPECIALCARBINE_MK2', 'WEAPON_BULLPUPRIFLE', 'WEAPON_BULLPUPRIFLE_MK2',
-				'WEAPON_COMPACTRIFLE', 'WEAPON_MILITARYRIFLE', 'WEAPON_HEAVYRIFLE',
-				'WEAPON_TACTICALRIFLE', 'WEAPON_BATTLERIFLE',
-				'WEAPON_PUMPSHOTGUN', 'WEAPON_PUMPSHOTGUN_MK2', 'WEAPON_ASSAULTSHOTGUN',
-				'WEAPON_BULLPUPSHOTGUN', 'WEAPON_HEAVYSHOTGUN', 'WEAPON_COMBATSHOTGUN',
-			},
+			rarity = 'rare',
 			client = {
 				component = {
 					`COMPONENT_AT_AR_FLSH`,
@@ -974,6 +1358,9 @@ return {
 					`COMPONENT_AT_PI_FLSH`,
 					`COMPONENT_AT_PI_FLSH_02`,
 					`COMPONENT_AT_PI_FLSH_03`,
+					`COMPONENT_AT_AR_BARPFLSH`, -- v4
+					`COMPONENT_AT_PI_RR67FLSH`, -- v4
+					`COMPONENT_AT_PI_PINKTITAN19FLSH`,
 				},
 				usetime = 2500
 			}
@@ -982,52 +1369,24 @@ return {
 		['at_suppressor_light'] = {
 			label = 'Suppressor',
 			weight = 280,
+			type = 'muzzle',
 			width = 2,
 			height = 1,
-			type = 'muzzle',
-			sizeModifier = {1, 0},
-			compatibleWeapons = {
-				'WEAPON_PISTOL', 'WEAPON_PISTOL_MK2', 'WEAPON_COMBATPISTOL', 'WEAPON_APPISTOL',
-				'WEAPON_PISTOL50', 'WEAPON_SNSPISTOL', 'WEAPON_SNSPISTOL_MK2', 'WEAPON_HEAVYPISTOL',
-				'WEAPON_VINTAGEPISTOL', 'WEAPON_CERAMICPISTOL', 'WEAPON_PISTOLXM3',
-			},
+			rarity = 'rare',
 			client = {
-                image = 'at_suppressor.png',
 				component = {
 					`COMPONENT_AT_PI_SUPP`,
 					`COMPONENT_AT_PI_SUPP_02`,
 					`COMPONENT_CERAMICPISTOL_SUPP`,
-					`COMPONENT_PISTOLXM3_SUPP`
-				},
-				usetime = 2500
-			}
-		},
-
-		['at_suppressor_heavy'] = {
-			label = 'Tactical Suppressor',
-			weight = 280,
-			width = 2,
-			height = 1,
-			type = 'muzzle',
-			sizeModifier = {1, 0},
-			compatibleWeapons = {
-				'WEAPON_MICROSMG', 'WEAPON_SMG', 'WEAPON_SMG_MK2', 'WEAPON_ASSAULTSMG',
-				'WEAPON_COMBATPDW', 'WEAPON_MACHINEPISTOL', 'WEAPON_MINISMG',
-				'WEAPON_ASSAULTRIFLE', 'WEAPON_ASSAULTRIFLE_MK2', 'WEAPON_CARBINERIFLE',
-				'WEAPON_CARBINERIFLE_MK2', 'WEAPON_ADVANCEDRIFLE', 'WEAPON_SPECIALCARBINE',
-				'WEAPON_SPECIALCARBINE_MK2', 'WEAPON_BULLPUPRIFLE', 'WEAPON_BULLPUPRIFLE_MK2',
-				'WEAPON_COMPACTRIFLE', 'WEAPON_MILITARYRIFLE', 'WEAPON_HEAVYRIFLE',
-				'WEAPON_TACTICALRIFLE', 'WEAPON_BATTLERIFLE',
-				'WEAPON_SNIPERRIFLE', 'WEAPON_HEAVYSNIPER', 'WEAPON_HEAVYSNIPER_MK2',
-				'WEAPON_MARKSMANRIFLE', 'WEAPON_MARKSMANRIFLE_MK2',
-			},
-			client = {
-                image = 'at_suppressor.png',
-				component = {
-					`COMPONENT_AT_AR_SUPP`,
-					`COMPONENT_AT_AR_SUPP_02`,
-					`COMPONENT_AT_SR_SUPP`,
-					`COMPONENT_AT_SR_SUPP_03`,
+					`COMPONENT_PISTOLXM3_SUPP`,
+					`COMPONENT_AT_PI_PDG19G4_SUPP`, -- pd
+					`COMPONENT_AT_AR_PINKPM9SUPP_02`, -- feamle
+					`COMPONENT_AT_AR_PINKMK18_SUPP`, -- female
+					`COMPONENT_AT_AR_DMK18_SUPP`, -- v5
+					`COMPONENT_AT_AR_REDM4A1_SUPP`, -- v5
+					`COMPONENT_AT_AR_ZIPTIE_SUPP`, -- v4
+					`COMPONENT_AT_AR_PINKT39SUPP_02`, -- feamle
+					`COMPONENT_AT_AR_PINKCOBRA_SUPP`, -- female
 				},
 				usetime = 2500
 			}
@@ -1036,51 +1395,17 @@ return {
 		['at_grip'] = {
 			label = 'Grip',
 			type = 'grip',
-			sizeModifier = {0, 0},
 			weight = 280,
 			width = 1,
 			height = 1,
-			compatibleWeapons = {
-				'WEAPON_MICROSMG', 'WEAPON_SMG', 'WEAPON_SMG_MK2', 'WEAPON_ASSAULTSMG',
-				'WEAPON_COMBATPDW', 'WEAPON_MACHINEPISTOL', 'WEAPON_MINISMG',
-				'WEAPON_ASSAULTRIFLE', 'WEAPON_ASSAULTRIFLE_MK2', 'WEAPON_CARBINERIFLE',
-				'WEAPON_CARBINERIFLE_MK2', 'WEAPON_ADVANCEDRIFLE', 'WEAPON_SPECIALCARBINE',
-				'WEAPON_SPECIALCARBINE_MK2', 'WEAPON_BULLPUPRIFLE', 'WEAPON_BULLPUPRIFLE_MK2',
-				'WEAPON_COMPACTRIFLE', 'WEAPON_MILITARYRIFLE', 'WEAPON_HEAVYRIFLE',
-				'WEAPON_TACTICALRIFLE', 'WEAPON_BATTLERIFLE',
-				'WEAPON_MG', 'WEAPON_COMBATMG', 'WEAPON_COMBATMG_MK2', 'WEAPON_GUSENBERG',
-			},
+			rarity = 'rare',
 			client = {
 				component = {
 					`COMPONENT_AT_AR_AFGRIP`,
-					`COMPONENT_AT_AR_AFGRIP_02`
-				},
-				usetime = 2500
-			}
-		},
-
-		['at_barrel'] = {
-			label = 'Heavy Barrel',
-			type = 'barrel',
-			sizeModifier = {1, 0},
-			compatibleWeapons = {
-				'WEAPON_ASSAULTRIFLE_MK2', 'WEAPON_CARBINERIFLE_MK2', 'WEAPON_SPECIALCARBINE_MK2',
-				'WEAPON_BULLPUPRIFLE_MK2', 'WEAPON_SMG_MK2', 'WEAPON_COMBATMG_MK2',
-				'WEAPON_HEAVYSNIPER_MK2', 'WEAPON_MARKSMANRIFLE_MK2', 'WEAPON_PUMPSHOTGUN_MK2',
-			},
-			weight = 280,
-			width = 1,
-			height = 1,
-			client = {
-				component = {
-					`COMPONENT_AT_AR_BARREL_02`,
-					`COMPONENT_AT_BP_BARREL_02`,
-					`COMPONENT_AT_CR_BARREL_02`,
-					`COMPONENT_AT_MG_BARREL_02`,
-					`COMPONENT_AT_MRFL_BARREL_02`,
-					`COMPONENT_AT_SB_BARREL_02`,
-					`COMPONENT_AT_SC_BARREL_02`,
-					`COMPONENT_AT_SR_BARREL_02`,
+					`COMPONENT_AT_AR_AFGRIP_02`,
+					`COMPONENT_AT_AR_WLOX15GRIP`, -- v4
+					`COMPONENT_AT_AR_PLRAFGRIP`, -- v4
+					`COMPONENT_AT_AR_PINKCOBRA_AFGRIP`, -- female
 				},
 				usetime = 2500
 			}
@@ -1089,17 +1414,11 @@ return {
 		['at_clip_extended_pistol'] = {
 			label = 'Extended Pistol Clip',
 			type = 'magazine',
-			sizeModifier = {0, 1},
-			compatibleWeapons = {
-				'WEAPON_PISTOL', 'WEAPON_PISTOL_MK2', 'WEAPON_COMBATPISTOL', 'WEAPON_APPISTOL',
-				'WEAPON_PISTOL50', 'WEAPON_SNSPISTOL', 'WEAPON_SNSPISTOL_MK2', 'WEAPON_HEAVYPISTOL',
-				'WEAPON_VINTAGEPISTOL', 'WEAPON_CERAMICPISTOL', 'WEAPON_TECPISTOL',
-			},
 			weight = 280,
 			width = 1,
-			height = 1,
+			height = 2,
+			rarity = 'rare',
 			client = {
-                image = 'at_clip_extended.png',
 				component = {
 					`COMPONENT_APPISTOL_CLIP_02`,
 					`COMPONENT_CERAMICPISTOL_CLIP_02`,
@@ -1112,52 +1431,17 @@ return {
 					`COMPONENT_SNSPISTOL_MK2_CLIP_02`,
 					`COMPONENT_VINTAGEPISTOL_CLIP_02`,
                     `COMPONENT_TECPISTOL_CLIP_02`,
-				},
-				usetime = 2500
-			}
-		},
-
-		['at_clip_extended_smg'] = {
-			label = 'Extended SMG Clip',
-			type = 'magazine',
-			sizeModifier = {0, 1},
-			compatibleWeapons = {
-				'WEAPON_MICROSMG', 'WEAPON_SMG', 'WEAPON_SMG_MK2', 'WEAPON_ASSAULTSMG',
-				'WEAPON_COMBATPDW', 'WEAPON_MACHINEPISTOL', 'WEAPON_MINISMG',
-			},
-			weight = 280,
-			width = 1,
-			height = 1,
-			client = {
-                image = 'at_clip_extended.png',
-				component = {
-					`COMPONENT_ASSAULTSMG_CLIP_02`,
-					`COMPONENT_COMBATPDW_CLIP_02`,
-					`COMPONENT_MACHINEPISTOL_CLIP_02`,
-					`COMPONENT_MICROSMG_CLIP_02`,
-					`COMPONENT_MINISMG_CLIP_02`,
-					`COMPONENT_SMG_CLIP_02`,
-					`COMPONENT_SMG_MK2_CLIP_02`,
-				},
-				usetime = 2500
-			}
-		},
-
-		['at_clip_extended_shotgun'] = {
-			label = 'Extended Shotgun Clip',
-			type = 'magazine',
-			sizeModifier = {0, 1},
-			compatibleWeapons = {
-				'WEAPON_ASSAULTSHOTGUN', 'WEAPON_HEAVYSHOTGUN',
-			},
-			weight = 280,
-			width = 1,
-			height = 1,
-			client = {
-                image = 'at_clip_extended2.png',
-				component = {
-					`COMPONENT_ASSAULTSHOTGUN_CLIP_02`,
-					`COMPONENT_HEAVYSHOTGUN_CLIP_02`,
+					`COMPONENT_TITAN19X_CLIP_02`, -- v4					
+					`COMPONENT_TITAN19_CLIP_02`, -- v4					
+					`COMPONENT_TITAN40_CLIP_02`, -- v4
+					`COMPONENT_TITAN40S_CLIP_02`, -- v4
+					`COMPONENT_ARPISTOL_BOXMAG`, -- v4
+					`COMPONENT_TITAN17_CLIP_02`, -- v4
+					`COMPONENT_TITAN18C_CLIP_02`, -- v4
+					`COMPONENT_XMK9_CLIP_02`, -- v4
+					`COMPONENT_SAPS_CLIP_02`, -- v4
+					`COMPONENT_PINKTITAN19_CLIP_02`, -- female
+					`COMPONENT_PXTREME_CLIP_02`, -- female
 				},
 				usetime = 2500
 			}
@@ -1166,19 +1450,11 @@ return {
 		['at_clip_extended_rifle'] = {
 			label = 'Extended Rifle Clip',
 			type = 'magazine',
-			sizeModifier = {0, 1},
-			compatibleWeapons = {
-				'WEAPON_ASSAULTRIFLE', 'WEAPON_ASSAULTRIFLE_MK2', 'WEAPON_CARBINERIFLE',
-				'WEAPON_CARBINERIFLE_MK2', 'WEAPON_ADVANCEDRIFLE', 'WEAPON_SPECIALCARBINE',
-				'WEAPON_SPECIALCARBINE_MK2', 'WEAPON_BULLPUPRIFLE', 'WEAPON_BULLPUPRIFLE_MK2',
-				'WEAPON_COMPACTRIFLE', 'WEAPON_MILITARYRIFLE', 'WEAPON_HEAVYRIFLE',
-				'WEAPON_TACTICALRIFLE', 'WEAPON_BATTLERIFLE',
-			},
 			weight = 280,
 			width = 1,
-			height = 1,
+			height = 2,
+			rarity = 'legendary',
 			client = {
-                image = 'at_clip_extended2.png',
 				component = {
 					`COMPONENT_ADVANCEDRIFLE_CLIP_02`,
 					`COMPONENT_ASSAULTRIFLE_CLIP_02`,
@@ -1193,22 +1469,150 @@ return {
 					`COMPONENT_SPECIALCARBINE_CLIP_02`,
 					`COMPONENT_SPECIALCARBINE_MK2_CLIP_02`,
 					`COMPONENT_TACTICALRIFLE_CLIP_02`,
-					`COMPONENT_BATTLERIFLE_CLIP_02`,
+					`COMPONENT_CARBINERIFLE_BOXMAG`,
+					`COMPONENT_BARP_CLIP_02`, -- v4
+					`COMPONENT_PLR_CLIP_02`, -- v4
+					`COMPONENT_ZIPTIE_BOXMAG`, -- v4
+					`COMPONENT_PINKSTRIKER_CLIP_02`, -- female
 				},
 				usetime = 2500
+			}
+		},
+
+		['at_clip_extended_smg'] = {
+			label = 'Extended SMG Clip',
+			type = 'magazine',
+			weight = 280,
+			width = 1,
+			height = 2,
+			rarity = 'legendary',
+			client = {
+				component = {
+					`COMPONENT_ASSAULTSMG_CLIP_02`,
+					`COMPONENT_COMBATPDW_CLIP_02`,
+					`COMPONENT_MACHINEPISTOL_CLIP_02`,
+					`COMPONENT_MICROSMG_CLIP_02`,
+					`COMPONENT_MINISMG_CLIP_02`,
+					`COMPONENT_SMG_CLIP_02`,
+					`COMPONENT_SMG_MK2_CLIP_02`,
+					`COMPONENT_PINKMP9_CLIP_02`, -- female
+					`COMPONENT_TEC9S_CLIP_02`, -- v5
+					`COMPONENT_PINKT39_CLIP_02`, -- female
+				},
+				usetime = 2500
+			}
+		},
+
+		['at_scope_small'] = {
+			label = 'Small Scope',
+			type = 'sight',
+			weight = 280,
+			width = 1,
+			height = 1,
+			rarity = 'rare',
+			client = {
+				component = {
+					`COMPONENT_AT_SCOPE_SMALL`,
+					`COMPONENT_AT_SCOPE_SMALL_02`,
+					`COMPONENT_AT_SCOPE_SMALL_MK2`,
+					`COMPONENT_AT_SCOPE_SMALL_SMG_MK2`,
+					`COMPONENT_AT_PDG19G4_SCOPE_SMALL`, -- pd
+					`COMPONENT_AT_PI_HRDP_RAIL`, -- v4
+					`COMPONENT_AT_PINKT39_SCOPE_MACRO`, -- female
+				},
+				usetime = 2500
+			}
+		},
+
+		['at_scope_medium'] = {
+			label = 'Medium Scope',
+			type = 'sight',
+			weight = 280,
+			width = 1,
+			height = 1,
+			rarity = 'rare',
+			client = {
+				component = {
+					`COMPONENT_AT_SCOPE_MEDIUM`,
+					`COMPONENT_AT_SCOPE_MEDIUM_MK2`,
+					`COMPONENT_AT_ARPISTOLSCOPE_MEDIUM`, -- v4
+					`COMPONENT_AT_PINKCOBRA_SCOPE_MEDIUM`, -- female
+				},
+				usetime = 2500
+			}
+		},
+
+        ['at_scope_large'] = {
+			label = 'Large Scope',
+			type = 'sight',
+			weight = 280,
+			width = 2,
+			height = 1,
+			rarity = 'rare',
+			client = {
+				component = {
+					`COMPONENT_AT_SCOPE_LARGE_MK2`,
+					`COMPONENT_AT_SCOPE_LARGE`
+				},
+				usetime = 2500
+			}
+		},
+
+		['at_clip_drum_pistol'] = {
+			label = '50 Round Drum',
+			type = 'magazine',
+			weight = 500,
+			width = 1,
+			height = 3,
+			rarity = 'legendary',
+			client = {
+				component = {
+					`COMPONENT_TITAN19X_CLIP_03`, -- v4
+					`COMPONENT_TITAN19_CLIP_03`, -- v4
+					`COMPONENT_TITAN40_CLIP_03`, -- v4
+					`COMPONENT_TITAN40S_CLIP_03`, -- v4
+					`COMPONENT_TITAN18C_CLIP_03`, -- v4
+					`COMPONENT_ILLTITAN17_CLIP_03`, -- v5
+					`COMPONENT_BLUETITANS_CLIP_03`, -- v5
+					`COMPONENT_TITANBEAMS_CLIP_03`, -- v5
+					`COMPONENT_MGTITAN_CLIP_03`, -- v5
+					`COMPONENT_TTITAN19_CLIP_03`, -- v5
+					`COMPONENT_MIDASTITAN_CLIP_03`, -- v5
+				},
+				usetime = 2500
+			}
+		},
+
+		['at_clip_100_pistol'] = {
+			label = '100 Round Mag',
+			type = 'magazine',
+			weight = 800,
+			width = 1,
+			height = 3,
+			rarity = 'legendary',
+			client = {
+				component = {
+					`COMPONENT_TITAN19X_CLIP_04`, -- v4
+					`COMPONENT_TITAN40_CLIP_04`, -- v4
+					`COMPONENT_TITAN40S_CLIP_04`, -- v4
+					`COMPONENT_ILLTITAN17_CLIP_05`, -- v5
+					`COMPONENT_BLUETITANS_CLIP_04`, -- v5
+					`COMPONENT_TITANBEAMS_CLIP_04`, -- v5
+					`COMPONENT_MGTITAN_CLIP_04`, -- v5
+					`COMPONENT_TTITAN19_CLIP_04`, -- v5
+					`COMPONENT_MIDASTITAN_CLIP_04`, -- v5
+				},
+				usetime = 5500
 			}
 		},
 
 		['at_clip_extended_mg'] = {
 			label = 'Extended MG Clip',
 			type = 'magazine',
-			sizeModifier = {0, 1},
-			compatibleWeapons = {
-				'WEAPON_MG', 'WEAPON_COMBATMG', 'WEAPON_COMBATMG_MK2', 'WEAPON_GUSENBERG',
-			},
 			weight = 280,
-			width = 1,
-			height = 1,
+			width = 2,
+			height = 2,
+			rarity = 'mythic',
 			client = {
                 image = 'at_clip_drum.png',
 				component = {
@@ -1224,13 +1628,10 @@ return {
 		['at_clip_extended_sniper'] = {
 			label = 'Extended Sniper Clip',
 			type = 'magazine',
-			sizeModifier = {0, 1},
-			compatibleWeapons = {
-				'WEAPON_HEAVYSNIPER_MK2', 'WEAPON_MARKSMANRIFLE', 'WEAPON_MARKSMANRIFLE_MK2',
-			},
 			weight = 280,
-			width = 1,
-			height = 1,
+			width = 2,
+			height = 2,
+			rarity = 'mythic',
 			client = {
                 image = 'at_clip_extended2.png',
 				component = {
@@ -1245,13 +1646,10 @@ return {
 		['at_clip_drum_smg'] = {
 			label = 'SMG Drum',
 			type = 'magazine',
-			sizeModifier = {0, 1},
-			compatibleWeapons = {
-				'WEAPON_SMG', 'WEAPON_COMBATPDW', 'WEAPON_MACHINEPISTOL',
-			},
 			weight = 280,
 			width = 1,
-			height = 1,
+			height = 3,
+			rarity = 'legendary',
 			client = {
                 image = 'at_clip_drum.png',
 				component = {
@@ -1266,13 +1664,10 @@ return {
 		['at_clip_drum_shotgun'] = {
 			label = 'Shotgun Drum',
 			type = 'magazine',
-			sizeModifier = {0, 1},
-			compatibleWeapons = {
-				'WEAPON_HEAVYSHOTGUN',
-			},
 			weight = 280,
-			width = 1,
-			height = 1,
+			width = 2,
+			height = 2,
+			rarity = 'legendary',
 			client = {
                 image = 'at_clip_drum.png',
 				component = {
@@ -1285,13 +1680,10 @@ return {
 		['at_clip_drum_rifle'] = {
 			label = 'Rifle Drum',
 			type = 'magazine',
-			sizeModifier = {0, 1},
-			compatibleWeapons = {
-				'WEAPON_ASSAULTRIFLE', 'WEAPON_COMPACTRIFLE', 'WEAPON_CARBINERIFLE', 'WEAPON_SPECIALCARBINE',
-			},
 			weight = 280,
 			width = 1,
-			height = 1,
+			height = 3,
+			rarity = 'mythic',
 			client = {
                 image = 'at_clip_drum.png',
 				component = {
@@ -1307,13 +1699,10 @@ return {
 		['at_compensator'] = {
 			label = 'Compensator',
 			type = 'muzzle',
-			sizeModifier = {1, 0},
-			compatibleWeapons = {
-				'WEAPON_PISTOL_MK2', 'WEAPON_SNSPISTOL_MK2', 'WEAPON_REVOLVER_MK2',
-			},
 			weight = 280,
 			width = 1,
 			height = 1,
+			rarity = 'rare',
 			client = {
 				component = {
 					`COMPONENT_AT_PI_COMP`,
@@ -1327,19 +1716,10 @@ return {
 		['at_scope_macro'] = {
 			label = 'Macro Scope',
 			type = 'sight',
-			sizeModifier = {0, 1},
-			compatibleWeapons = {
-				'WEAPON_MICROSMG', 'WEAPON_SMG', 'WEAPON_SMG_MK2', 'WEAPON_ASSAULTSMG',
-				'WEAPON_COMBATPDW', 'WEAPON_MACHINEPISTOL', 'WEAPON_MINISMG',
-				'WEAPON_ASSAULTRIFLE', 'WEAPON_ASSAULTRIFLE_MK2', 'WEAPON_CARBINERIFLE',
-				'WEAPON_CARBINERIFLE_MK2', 'WEAPON_ADVANCEDRIFLE', 'WEAPON_SPECIALCARBINE',
-				'WEAPON_SPECIALCARBINE_MK2', 'WEAPON_BULLPUPRIFLE', 'WEAPON_BULLPUPRIFLE_MK2',
-				'WEAPON_COMPACTRIFLE', 'WEAPON_MILITARYRIFLE', 'WEAPON_HEAVYRIFLE',
-				'WEAPON_TACTICALRIFLE', 'WEAPON_BATTLERIFLE',
-			},
 			weight = 280,
 			width = 1,
 			height = 1,
+			rarity = 'rare',
 			client = {
 				component = {
 					`COMPONENT_AT_SCOPE_MACRO`,
@@ -1352,82 +1732,13 @@ return {
 			}
 		},
 
-		['at_scope_small'] = {
-			label = 'Small Scope',
-			type = 'sight',
-			sizeModifier = {0, 1},
-			compatibleWeapons = {
-				'WEAPON_ASSAULTRIFLE', 'WEAPON_ASSAULTRIFLE_MK2', 'WEAPON_CARBINERIFLE',
-				'WEAPON_CARBINERIFLE_MK2', 'WEAPON_ADVANCEDRIFLE', 'WEAPON_SPECIALCARBINE',
-				'WEAPON_SPECIALCARBINE_MK2', 'WEAPON_BULLPUPRIFLE', 'WEAPON_BULLPUPRIFLE_MK2',
-				'WEAPON_COMPACTRIFLE', 'WEAPON_MILITARYRIFLE', 'WEAPON_HEAVYRIFLE',
-				'WEAPON_TACTICALRIFLE', 'WEAPON_BATTLERIFLE',
-				'WEAPON_MG', 'WEAPON_COMBATMG', 'WEAPON_COMBATMG_MK2',
-				'WEAPON_SMG_MK2',
-			},
-			weight = 280,
-			width = 1,
-			height = 1,
-			client = {
-				component = {
-					`COMPONENT_AT_SCOPE_SMALL`,
-					`COMPONENT_AT_SCOPE_SMALL_02`,
-					`COMPONENT_AT_SCOPE_SMALL_MK2`,
-					`COMPONENT_AT_SCOPE_SMALL_SMG_MK2`
-				},
-				usetime = 2500
-			}
-		},
-
-		['at_scope_medium'] = {
-			label = 'Medium Scope',
-			type = 'sight',
-			sizeModifier = {0, 1},
-			compatibleWeapons = {
-				'WEAPON_ASSAULTRIFLE_MK2', 'WEAPON_CARBINERIFLE_MK2', 'WEAPON_SPECIALCARBINE_MK2',
-				'WEAPON_BULLPUPRIFLE_MK2', 'WEAPON_MARKSMANRIFLE', 'WEAPON_MARKSMANRIFLE_MK2',
-			},
-			weight = 280,
-			width = 2,
-			height = 1,
-			client = {
-				component = {
-					`COMPONENT_AT_SCOPE_MEDIUM`,
-					`COMPONENT_AT_SCOPE_MEDIUM_MK2`
-				},
-				usetime = 2500
-			}
-		},
-
-		['at_scope_large'] = {
-			label = 'Large Scope',
-			type = 'sight',
-			sizeModifier = {0, 1},
-			compatibleWeapons = {
-				'WEAPON_HEAVYSNIPER_MK2', 'WEAPON_MARKSMANRIFLE_MK2',
-			},
-			weight = 280,
-			width = 2,
-			height = 1,
-			client = {
-				component = {
-					`COMPONENT_AT_SCOPE_LARGE_MK2`
-				},
-				usetime = 2500
-			}
-		},
-
 		['at_scope_advanced'] = {
 			label = 'Advanced Scope',
 			type = 'sight',
-			sizeModifier = {0, 1},
-			compatibleWeapons = {
-				'WEAPON_SNIPERRIFLE', 'WEAPON_HEAVYSNIPER', 'WEAPON_HEAVYSNIPER_MK2',
-				'WEAPON_MARKSMANRIFLE', 'WEAPON_MARKSMANRIFLE_MK2',
-			},
 			weight = 280,
-			width = 2,
+			width = 1,
 			height = 1,
+			rarity = 'rare',
 			client = {
 				component = {
 					`COMPONENT_AT_SCOPE_MAX`
@@ -1439,13 +1750,10 @@ return {
 		['at_scope_nv'] = {
 			label = 'NV Scope',
 			type = 'sight',
-			sizeModifier = {0, 1},
-			compatibleWeapons = {
-				'WEAPON_HEAVYSNIPER_MK2', 'WEAPON_MARKSMANRIFLE_MK2',
-			},
 			weight = 420,
-			width = 2,
+			width = 1,
 			height = 1,
+			rarity = 'rare',
 			client = {
 				component = {
 					`COMPONENT_AT_SCOPE_NV`
@@ -1457,13 +1765,10 @@ return {
 		['at_scope_thermal'] = {
 			label = 'Thermal Scope',
 			type = 'sight',
-			sizeModifier = {0, 1},
-			compatibleWeapons = {
-				'WEAPON_HEAVYSNIPER_MK2', 'WEAPON_MARKSMANRIFLE_MK2',
-			},
 			weight = 420,
-			width = 2,
+			width = 1,
 			height = 1,
+			rarity = 'rare',
 			client = {
 				component = {
 					`COMPONENT_AT_SCOPE_THERMAL`
@@ -1475,16 +1780,10 @@ return {
 		['at_scope_holo'] = {
 			label = 'Holographic Sight',
 			type = 'sight',
-			sizeModifier = {0, 1},
-			compatibleWeapons = {
-				'WEAPON_PISTOL_MK2', 'WEAPON_SNSPISTOL_MK2',
-				'WEAPON_SMG_MK2',
-				'WEAPON_ASSAULTRIFLE', 'WEAPON_CARBINERIFLE', 'WEAPON_SPECIALCARBINE',
-				'WEAPON_BULLPUPRIFLE', 'WEAPON_COMPACTRIFLE',
-			},
 			weight = 280,
 			width = 1,
 			height = 1,
+			rarity = 'rare',
 			client = {
 				component = {
 					`COMPONENT_AT_PI_RAIL`,
@@ -1499,14 +1798,10 @@ return {
 		['at_muzzle_flat'] = {
 			label = 'Flat Muzzle',
 			type = 'muzzle',
-			sizeModifier = {1, 0},
-			compatibleWeapons = {
-				'WEAPON_ASSAULTRIFLE_MK2', 'WEAPON_CARBINERIFLE_MK2', 'WEAPON_SPECIALCARBINE_MK2',
-				'WEAPON_BULLPUPRIFLE_MK2', 'WEAPON_SMG_MK2', 'WEAPON_COMBATMG_MK2',
-			},
 			weight = 80,
 			width = 1,
 			height = 1,
+			rarity = 'rare',
 			client = {
 				component = {
 					`COMPONENT_AT_MUZZLE_01`
@@ -1518,14 +1813,10 @@ return {
 		['at_muzzle_tactical'] = {
 			label = 'Tactical Muzzle',
 			type = 'muzzle',
-			sizeModifier = {1, 0},
-			compatibleWeapons = {
-				'WEAPON_ASSAULTRIFLE_MK2', 'WEAPON_CARBINERIFLE_MK2', 'WEAPON_SPECIALCARBINE_MK2',
-				'WEAPON_BULLPUPRIFLE_MK2', 'WEAPON_SMG_MK2', 'WEAPON_COMBATMG_MK2',
-			},
 			weight = 80,
 			width = 1,
 			height = 1,
+			rarity = 'rare',
 			client = {
 				component = {
 					`COMPONENT_AT_MUZZLE_02`
@@ -1537,14 +1828,10 @@ return {
 		['at_muzzle_fat'] = {
 			label = 'Fat Muzzle',
 			type = 'muzzle',
-			sizeModifier = {1, 0},
-			compatibleWeapons = {
-				'WEAPON_ASSAULTRIFLE_MK2', 'WEAPON_CARBINERIFLE_MK2', 'WEAPON_SPECIALCARBINE_MK2',
-				'WEAPON_BULLPUPRIFLE_MK2', 'WEAPON_SMG_MK2', 'WEAPON_COMBATMG_MK2',
-			},
 			weight = 80,
 			width = 1,
 			height = 1,
+			rarity = 'rare',
 			client = {
 				component = {
 					`COMPONENT_AT_MUZZLE_03`
@@ -1556,14 +1843,10 @@ return {
 		['at_muzzle_precision'] = {
 			label = 'Precision Muzzle',
 			type = 'muzzle',
-			sizeModifier = {1, 0},
-			compatibleWeapons = {
-				'WEAPON_ASSAULTRIFLE_MK2', 'WEAPON_CARBINERIFLE_MK2', 'WEAPON_SPECIALCARBINE_MK2',
-				'WEAPON_BULLPUPRIFLE_MK2', 'WEAPON_SMG_MK2', 'WEAPON_COMBATMG_MK2',
-			},
 			weight = 80,
 			width = 1,
 			height = 1,
+			rarity = 'rare',
 			client = {
 				component = {
 					`COMPONENT_AT_MUZZLE_04`
@@ -1575,14 +1858,10 @@ return {
 		['at_muzzle_heavy'] = {
 			label = 'Heavy Muzzle',
 			type = 'muzzle',
-			sizeModifier = {1, 0},
-			compatibleWeapons = {
-				'WEAPON_ASSAULTRIFLE_MK2', 'WEAPON_CARBINERIFLE_MK2', 'WEAPON_SPECIALCARBINE_MK2',
-				'WEAPON_BULLPUPRIFLE_MK2', 'WEAPON_SMG_MK2', 'WEAPON_COMBATMG_MK2',
-			},
 			weight = 80,
 			width = 1,
 			height = 1,
+			rarity = 'rare',
 			client = {
 				component = {
 					`COMPONENT_AT_MUZZLE_05`
@@ -1594,14 +1873,10 @@ return {
 		['at_muzzle_slanted'] = {
 			label = 'Slanted Muzzle',
 			type = 'muzzle',
-			sizeModifier = {1, 0},
-			compatibleWeapons = {
-				'WEAPON_ASSAULTRIFLE_MK2', 'WEAPON_CARBINERIFLE_MK2', 'WEAPON_SPECIALCARBINE_MK2',
-				'WEAPON_BULLPUPRIFLE_MK2', 'WEAPON_SMG_MK2', 'WEAPON_COMBATMG_MK2',
-			},
 			weight = 80,
 			width = 1,
 			height = 1,
+			rarity = 'rare',
 			client = {
 				component = {
 					`COMPONENT_AT_MUZZLE_06`
@@ -1613,14 +1888,10 @@ return {
 		['at_muzzle_split'] = {
 			label = 'Split Muzzle',
 			type = 'muzzle',
-			sizeModifier = {1, 0},
-			compatibleWeapons = {
-				'WEAPON_ASSAULTRIFLE_MK2', 'WEAPON_CARBINERIFLE_MK2', 'WEAPON_SPECIALCARBINE_MK2',
-				'WEAPON_BULLPUPRIFLE_MK2', 'WEAPON_SMG_MK2', 'WEAPON_COMBATMG_MK2',
-			},
 			weight = 80,
 			width = 1,
 			height = 1,
+			rarity = 'rare',
 			client = {
 				component = {
 					`COMPONENT_AT_MUZZLE_07`
@@ -1632,14 +1903,10 @@ return {
 		['at_muzzle_squared'] = {
 			label = 'Squared Muzzle',
 			type = 'muzzle',
-			sizeModifier = {1, 0},
-			compatibleWeapons = {
-				'WEAPON_ASSAULTRIFLE_MK2', 'WEAPON_CARBINERIFLE_MK2', 'WEAPON_SPECIALCARBINE_MK2',
-				'WEAPON_BULLPUPRIFLE_MK2', 'WEAPON_SMG_MK2', 'WEAPON_COMBATMG_MK2',
-			},
 			weight = 80,
 			width = 1,
 			height = 1,
+			rarity = 'rare',
 			client = {
 				component = {
 					`COMPONENT_AT_MUZZLE_08`
@@ -1651,14 +1918,10 @@ return {
 		['at_muzzle_bell'] = {
 			label = 'Bell Muzzle',
 			type = 'muzzle',
-			sizeModifier = {1, 0},
-			compatibleWeapons = {
-				'WEAPON_ASSAULTRIFLE_MK2', 'WEAPON_CARBINERIFLE_MK2', 'WEAPON_SPECIALCARBINE_MK2',
-				'WEAPON_BULLPUPRIFLE_MK2', 'WEAPON_SMG_MK2', 'WEAPON_COMBATMG_MK2',
-			},
 			weight = 80,
 			width = 1,
 			height = 1,
+			rarity = 'rare',
 			client = {
 				component = {
 					`COMPONENT_AT_MUZZLE_09`
@@ -1670,10 +1933,10 @@ return {
 		['at_skin_luxe'] = {
 			label = 'Luxury Weapon Kit',
 			type = 'skin',
-			sizeModifier = {0, 0},
 			weight = 50,
 			width = 1,
 			height = 1,
+			rarity = 'rare',
 			client = {
 				component = {
 					`COMPONENT_ASSAULTRIFLE_VARMOD_LUXE`,
@@ -1694,10 +1957,10 @@ return {
 		['at_skin_wood'] = {
 			label = 'Wood Weapon Kit',
 			type = 'skin',
-			sizeModifier = {0, 0},
 			weight = 50,
 			width = 1,
 			height = 1,
+			rarity = 'rare',
 			client = {
 				component = {
 					`COMPONENT_HEAVYPISTOL_VARMOD_LUXE`,
@@ -1711,10 +1974,10 @@ return {
 		['at_skin_metal'] = {
 			label = 'Metal Weapon Kit',
 			type = 'skin',
-			sizeModifier = {0, 0},
 			weight = 50,
 			width = 1,
 			height = 1,
+			rarity = 'rare',
 			client = {
 				component = {
 					`COMPONENT_ADVANCEDRIFLE_VARMOD_LUXE`,
@@ -1730,10 +1993,10 @@ return {
 		['at_skin_pearl'] = {
 			label = 'Pearl Weapon Kit',
 			type = 'skin',
-			sizeModifier = {0, 0},
 			weight = 50,
 			width = 1,
 			height = 1,
+			rarity = 'rare',
 			client = {
 				component = {
 					`COMPONENT_PISTOL50_VARMOD_LUXE`
@@ -1745,10 +2008,10 @@ return {
 		['at_skin_ballas'] = {
 			label = 'Ballas Weapon Kit',
 			type = 'skin',
-			sizeModifier = {0, 0},
 			weight = 50,
 			width = 1,
 			height = 1,
+			rarity = 'rare',
 			client = {
 				component = {
 					`COMPONENT_KNUCKLE_VARMOD_BALLAS`
@@ -1760,10 +2023,10 @@ return {
 		['at_skin_diamond'] = {
 			label = 'Diamond Weapon Kit',
 			type = 'skin',
-			sizeModifier = {0, 0},
 			weight = 50,
 			width = 1,
 			height = 1,
+			rarity = 'rare',
 			client = {
 				component = {
 					`COMPONENT_KNUCKLE_VARMOD_DIAMOND`
@@ -1775,10 +2038,10 @@ return {
 		['at_skin_dollar'] = {
 			label = 'Dollar Weapon Kit',
 			type = 'skin',
-			sizeModifier = {0, 0},
 			weight = 50,
 			width = 1,
 			height = 1,
+			rarity = 'rare',
 			client = {
 				component = {
 					`COMPONENT_KNUCKLE_VARMOD_DOLLAR`
@@ -1790,10 +2053,10 @@ return {
 		['at_skin_hate'] = {
 			label = 'Hate Weapon Kit',
 			type = 'skin',
-			sizeModifier = {0, 0},
 			weight = 50,
 			width = 1,
 			height = 1,
+			rarity = 'rare',
 			client = {
 				component = {
 					`COMPONENT_KNUCKLE_VARMOD_HATE`
@@ -1805,10 +2068,10 @@ return {
 		['at_skin_king'] = {
 			label = 'King Weapon Kit',
 			type = 'skin',
-			sizeModifier = {0, 0},
 			weight = 50,
 			width = 1,
 			height = 1,
+			rarity = 'rare',
 			client = {
 				component = {
 					`COMPONENT_KNUCKLE_VARMOD_KING`
@@ -1820,10 +2083,10 @@ return {
 		['at_skin_love'] = {
 			label = 'Love Weapon Kit',
 			type = 'skin',
-			sizeModifier = {0, 0},
 			weight = 50,
 			width = 1,
 			height = 1,
+			rarity = 'rare',
 			client = {
 				component = {
 					`COMPONENT_KNUCKLE_VARMOD_LOVE`
@@ -1835,10 +2098,10 @@ return {
 		['at_skin_pimp'] = {
 			label = 'Pimp Weapon Kit',
 			type = 'skin',
-			sizeModifier = {0, 0},
 			weight = 50,
 			width = 1,
 			height = 1,
+			rarity = 'rare',
 			client = {
 				component = {
 					`COMPONENT_KNUCKLE_VARMOD_PIMP`
@@ -1850,10 +2113,10 @@ return {
 		['at_skin_player'] = {
 			label = 'Player Weapon Kit',
 			type = 'skin',
-			sizeModifier = {0, 0},
 			weight = 50,
 			width = 1,
 			height = 1,
+			rarity = 'rare',
 			client = {
 				component = {
 					`COMPONENT_KNUCKLE_VARMOD_PLAYER`
@@ -1865,10 +2128,10 @@ return {
 		['at_skin_vagos'] = {
 			label = 'Vagos Weapon Kit',
 			type = 'skin',
-			sizeModifier = {0, 0},
 			weight = 50,
 			width = 1,
 			height = 1,
+			rarity = 'rare',
 			client = {
 				component = {
 					`COMPONENT_KNUCKLE_VARMOD_VAGOS`
@@ -1880,10 +2143,10 @@ return {
 		['at_skin_blagueurs'] = {
 			label = 'Blagueurs Weapon Kit',
 			type = 'skin',
-			sizeModifier = {0, 0},
 			weight = 50,
 			width = 1,
 			height = 1,
+			rarity = 'rare',
 			client = {
 				component = {
 					`COMPONENT_BAT_VARMOD_XM3`
@@ -1895,10 +2158,10 @@ return {
 		['at_skin_splatter'] = {
 			label = 'Splatter Weapon Kit',
 			type = 'skin',
-			sizeModifier = {0, 0},
 			weight = 50,
 			width = 1,
 			height = 1,
+			rarity = 'rare',
 			client = {
 				component = {
 					`COMPONENT_BAT_VARMOD_XM3_01`
@@ -1910,10 +2173,10 @@ return {
 		['at_skin_bulletholes'] = {
 			label = 'Bullet Holes Weapon Kit',
 			type = 'skin',
-			sizeModifier = {0, 0},
 			weight = 50,
 			width = 1,
 			height = 1,
+			rarity = 'rare',
 			client = {
 				component = {
 					`COMPONENT_BAT_VARMOD_XM3_02`
@@ -1925,10 +2188,10 @@ return {
 		['at_skin_burgershot'] = {
 			label = 'Burger Shot Weapon Kit',
 			type = 'skin',
-			sizeModifier = {0, 0},
 			weight = 50,
 			width = 1,
 			height = 1,
+			rarity = 'rare',
 			client = {
 				component = {
 					`COMPONENT_BAT_VARMOD_XM3_03`
@@ -1940,10 +2203,10 @@ return {
 		['at_skin_cluckinbell'] = {
 			label = 'Cluckin Bell Weapon Kit',
 			type = 'skin',
-			sizeModifier = {0, 0},
 			weight = 50,
 			width = 1,
 			height = 1,
+			rarity = 'rare',
 			client = {
 				component = {
 					`COMPONENT_BAT_VARMOD_XM3_04`
@@ -1955,10 +2218,10 @@ return {
 		['at_skin_fatalincursion'] = {
 			label = 'Fatal Incursion Weapon Kit',
 			type = 'skin',
-			sizeModifier = {0, 0},
 			weight = 50,
 			width = 1,
 			height = 1,
+			rarity = 'rare',
 			client = {
 				component = {
 					`COMPONENT_BAT_VARMOD_XM3_05`
@@ -1970,10 +2233,10 @@ return {
 		['at_skin_luchalibre'] = {
 			label = 'Lucha Libre Weapon Kit',
 			type = 'skin',
-			sizeModifier = {0, 0},
 			weight = 50,
 			width = 1,
 			height = 1,
+			rarity = 'rare',
 			client = {
 				component = {
 					`COMPONENT_BAT_VARMOD_XM3_06`
@@ -1985,10 +2248,10 @@ return {
 		['at_skin_trippy'] = {
 			label = 'Trippy Weapon Kit',
 			type = 'skin',
-			sizeModifier = {0, 0},
 			weight = 50,
 			width = 1,
 			height = 1,
+			rarity = 'rare',
 			client = {
 				component = {
 					`COMPONENT_BAT_VARMOD_XM3_07`
@@ -2000,10 +2263,10 @@ return {
 		['at_skin_tiedye'] = {
 			label = 'Tie-Dye Weapon Kit',
 			type = 'skin',
-			sizeModifier = {0, 0},
 			weight = 50,
 			width = 1,
 			height = 1,
+			rarity = 'rare',
 			client = {
 				component = {
 					`COMPONENT_BAT_VARMOD_XM3_08`
@@ -2015,10 +2278,10 @@ return {
 		['at_skin_wall'] = {
 			label = 'Wall Weapon Kit',
 			type = 'skin',
-			sizeModifier = {0, 0},
 			weight = 50,
 			width = 1,
 			height = 1,
+			rarity = 'rare',
 			client = {
 				component = {
 					`COMPONENT_BAT_VARMOD_XM3_09`
@@ -2030,10 +2293,10 @@ return {
 		['at_skin_vip'] = {
 			label = 'VIP Weapon Kit',
 			type = 'skin',
-			sizeModifier = {0, 0},
 			weight = 50,
 			width = 1,
 			height = 1,
+			rarity = 'rare',
 			client = {
 				component = {
 					`COMPONENT_REVOLVER_VARMOD_BOSS`,
@@ -2046,10 +2309,10 @@ return {
 		['at_skin_bodyguard'] = {
 			label = 'Bodyguard Weapon Kit',
 			type = 'skin',
-			sizeModifier = {0, 0},
 			weight = 50,
 			width = 1,
 			height = 1,
+			rarity = 'rare',
 			client = {
 				component = {
 					`COMPONENT_REVOLVER_VARMOD_GOON`,
@@ -2062,10 +2325,10 @@ return {
 		['at_skin_festive'] = {
 			label = 'Festive Weapon Kit',
 			type = 'skin',
-			sizeModifier = {0, 0},
 			weight = 50,
 			width = 1,
 			height = 1,
+			rarity = 'rare',
 			client = {
 				component = {
 					`COMPONENT_RAYPISTOL_VARMOD_XMAS18`
@@ -2077,10 +2340,10 @@ return {
 		['at_skin_security'] = {
 			label = 'Security Weapon Kit',
 			type = 'skin',
-			sizeModifier = {0, 0},
 			weight = 50,
 			width = 1,
 			height = 1,
+			rarity = 'rare',
 			client = {
 				component = {
 					`COMPONENT_APPISTOL_VARMOD_SECURITY`,
@@ -2093,10 +2356,10 @@ return {
 		['at_skin_camo'] = {
 			label = 'Camo Weapon Kit',
 			type = 'skin',
-			sizeModifier = {0, 0},
 			weight = 50,
 			width = 1,
 			height = 1,
+			rarity = 'rare',
 			client = {
 				component = {
 					`COMPONENT_ASSAULTRIFLE_MK2_CAMO`,
@@ -2119,10 +2382,10 @@ return {
 		['at_skin_brushstroke'] = {
 			label = 'Brushstroke Weapon Kit',
 			type = 'skin',
-			sizeModifier = {0, 0},
 			weight = 50,
 			width = 1,
 			height = 1,
+			rarity = 'rare',
 			client = {
 				component = {
 					`COMPONENT_ASSAULTRIFLE_MK2_CAMO_02`,
@@ -2145,10 +2408,10 @@ return {
 		['at_skin_woodland'] = {
 			label = 'Woodland Weapon Kit',
 			type = 'skin',
-			sizeModifier = {0, 0},
 			weight = 50,
 			width = 1,
 			height = 1,
+			rarity = 'rare',
 			client = {
 				component = {
 					`COMPONENT_ASSAULTRIFLE_MK2_CAMO_03`,
@@ -2171,10 +2434,10 @@ return {
 		['at_skin_skull'] = {
 			label = 'Skull Weapon Kit',
 			type = 'skin',
-			sizeModifier = {0, 0},
 			weight = 50,
 			width = 1,
 			height = 1,
+			rarity = 'rare',
 			client = {
 				component = {
 					`COMPONENT_ASSAULTRIFLE_MK2_CAMO_04`,
@@ -2197,10 +2460,10 @@ return {
 		['at_skin_sessanta'] = {
 			label = 'Sessanta Weapon Kit',
 			type = 'skin',
-			sizeModifier = {0, 0},
 			weight = 50,
 			width = 1,
 			height = 1,
+			rarity = 'rare',
 			client = {
 				component = {
 					`COMPONENT_ASSAULTRIFLE_MK2_CAMO_05`,
@@ -2223,10 +2486,10 @@ return {
 		['at_skin_perseus'] = {
 			label = 'Perseus Weapon Kit',
 			type = 'skin',
-			sizeModifier = {0, 0},
 			weight = 50,
 			width = 1,
 			height = 1,
+			rarity = 'rare',
 			client = {
 				component = {
 					`COMPONENT_ASSAULTRIFLE_MK2_CAMO_06`,
@@ -2249,10 +2512,10 @@ return {
 		['at_skin_leopard'] = {
 			label = 'Leopard Weapon Kit',
 			type = 'skin',
-			sizeModifier = {0, 0},
 			weight = 50,
 			width = 1,
 			height = 1,
+			rarity = 'rare',
 			client = {
 				component = {
 					`COMPONENT_ASSAULTRIFLE_MK2_CAMO_07`,
@@ -2275,10 +2538,10 @@ return {
 		['at_skin_zebra'] = {
 			label = 'Zebra Weapon Kit',
 			type = 'skin',
-			sizeModifier = {0, 0},
 			weight = 50,
 			width = 1,
 			height = 1,
+			rarity = 'rare',
 			client = {
 				component = {
 					`COMPONENT_ASSAULTRIFLE_MK2_CAMO_08`,
@@ -2301,10 +2564,10 @@ return {
 		['at_skin_geometric'] = {
 			label = 'Geometric Weapon Kit',
 			type = 'skin',
-			sizeModifier = {0, 0},
 			weight = 50,
 			width = 1,
 			height = 1,
+			rarity = 'rare',
 			client = {
 				component = {
 					`COMPONENT_ASSAULTRIFLE_MK2_CAMO_09`,
@@ -2327,10 +2590,10 @@ return {
 		['at_skin_boom'] = {
 			label = 'Boom Weapon Kit',
 			type = 'skin',
-			sizeModifier = {0, 0},
 			weight = 50,
 			width = 1,
 			height = 1,
+			rarity = 'rare',
 			client = {
 				component = {
 					`COMPONENT_ASSAULTRIFLE_MK2_CAMO_10`,
@@ -2353,10 +2616,10 @@ return {
 		['at_skin_patriotic'] = {
 			label = 'Patriotic Weapon Kit',
 			type = 'skin',
-			sizeModifier = {0, 0},
 			weight = 50,
 			width = 1,
 			height = 1,
+			rarity = 'rare',
 			client = {
 				component = {
 					`COMPONENT_ASSAULTRIFLE_MK2_CAMO_IND_01`,
@@ -2378,11 +2641,19 @@ return {
 	},
 
 	Ammo = {
+		['ammo-smokegrenade'] = {
+			label = '40mm Smoke',
+			weight = 3,
+			width = 1,
+			height = 1,
+			rarity = 'rare',
+		},
 		['ammo-22'] = {
 			label = '.22 Long Rifle',
 			weight = 3,
 			width = 1,
 			height = 1,
+			rarity = 'rare',
 		},
 
 		['ammo-38'] = {
@@ -2390,6 +2661,7 @@ return {
 			weight = 15,
 			width = 1,
 			height = 1,
+			rarity = 'rare',
 		},
 
 		['ammo-44'] = {
@@ -2397,6 +2669,7 @@ return {
 			weight = 16,
 			width = 1,
 			height = 1,
+			rarity = 'rare',
 		},
 
 		['ammo-45'] = {
@@ -2404,6 +2677,7 @@ return {
 			weight = 15,
 			width = 1,
 			height = 1,
+			rarity = 'rare',
 		},
 
 		['ammo-50'] = {
@@ -2411,13 +2685,15 @@ return {
 			weight = 45,
 			width = 1,
 			height = 1,
+			rarity = 'epic',
 		},
 
 		['ammo-9'] = {
 			label = '9mm',
-			weight = 7,
+			weight = 7,	
 			width = 1,
 			height = 1,
+			rarity = 'uncommon',
 		},
 
 		['ammo-firework'] = {
@@ -2425,6 +2701,7 @@ return {
 			weight = 200,
 			width = 1,
 			height = 1,
+			rarity = 'rare',
 		},
 
 		['ammo-flare'] = {
@@ -2432,6 +2709,7 @@ return {
 			weight = 38,
 			width = 1,
 			height = 1,
+			rarity = 'rare',
 		},
 
 		['ammo-grenade'] = {
@@ -2439,6 +2717,7 @@ return {
 			weight = 400,
 			width = 1,
 			height = 1,
+			rarity = 'rare',
 		},
 
 		['ammo-heavysniper'] = {
@@ -2446,13 +2725,7 @@ return {
 			weight = 51,
 			width = 1,
 			height = 1,
-		},
-
-		['ammo-laser'] = {
-			label = 'Laser charge',
-			weight = 1,
-			width = 1,
-			height = 1,
+			rarity = 'mythic',
 		},
 
 		['ammo-musket'] = {
@@ -2460,13 +2733,7 @@ return {
 			weight = 38,
 			width = 1,
 			height = 1,
-		},
-
-		['ammo-railgun'] = {
-			label = 'Railgun charge',
-			weight = 150,
-			width = 1,
-			height = 1,
+			rarity = 'rare',
 		},
 
 		['ammo-rifle'] = {
@@ -2474,6 +2741,7 @@ return {
 			weight = 4,
 			width = 1,
 			height = 1,
+			rarity = 'rare',
 		},
 
 		['ammo-rifle2'] = {
@@ -2481,13 +2749,7 @@ return {
 			weight = 8,
 			width = 1,
 			height = 1,
-		},
-
-		['ammo-rocket'] = {
-			label = 'Rocket',
-			weight = 500,
-			width = 1,
-			height = 1,
+			rarity = 'rare',
 		},
 
 		['ammo-shotgun'] = {
@@ -2495,6 +2757,7 @@ return {
 			weight = 38,
 			width = 1,
 			height = 1,
+			rarity = 'rare',
 		},
 
 		['ammo-sniper'] = {
@@ -2502,13 +2765,8 @@ return {
 			weight = 9,
 			width = 1,
 			height = 1,
-		},
+			rarity = 'legendary',
+		},	
 
-		['ammo-emp'] = {
-			label = 'EMP round',
-			weight = 400,
-			width = 1,
-			height = 1,
-		},
 	}
 }
